@@ -5,7 +5,7 @@ body {
 	font-size:16px;
 }
 
-button {
+button, input[type="button"], input[type="submit"], input[type="reset"] {
 	margin:6px;
 	padding:6px 12px;
 	border-width:1px 0px;

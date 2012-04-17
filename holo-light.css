@@ -14,7 +14,7 @@ body {
 	color:black;
 }
 
-button {
+button, input[type="button"], input[type="submit"], input[type="reset"] {
 	background-color:#CBCBCB;
 	
 	border-top-color:#DDDDDD;
@@ -22,12 +22,12 @@ button {
 	
 	color:#333333;
 }
-button:focus {
+button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
 	-webkit-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
 	   -moz-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
 	        box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
 }
-button:active:enabled {
+button:active:enabled, input[type="button"]:active:enabled, input[type="submit"]:active:enabled, input[type="reset"]:active:enabled {
 	background-color:#4BBDE8;
 	background-color:rgba(51,181,229,0.9);
 	
