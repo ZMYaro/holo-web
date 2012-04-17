@@ -1,0 +1,23 @@
+body {
+	background-attachment:fixed;
+	
+	font-family:Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+button {
+	margin:6px;
+	padding:6px 12px;
+	border-width:1px 0px;
+	border-style:solid none;
+	-webkit-border-radius:1px;
+	   -moz-border-radius:1px;
+	        border-radius:1px;
+	
+	font-family:Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+*:disabled {
+	opacity:0.3;
+}
