@@ -5,11 +5,16 @@ body {
 	font-size:16px;
 }
 
+button, input[type="button"], input[type="submit"], input[type="reset"], input[type="radio"], input[type="checkbox"] {
+	outline-style:none;
+	outline-width:0px;
+}
 button, input[type="button"], input[type="submit"], input[type="reset"] {
 	margin:6px;
 	padding:6px 12px;
-	border-width:1px 0px;
-	border-style:solid none;
+	border-width:1px;
+	border-style:solid;
+	border-color:transparent;
 	-webkit-border-radius:1px;
 	   -moz-border-radius:1px;
 	        border-radius:1px;
@@ -18,10 +23,10 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
 	
 	font-family:Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size:16px;
-}
-button, input[type="button"], input[type="submit"], input[type="reset"], input[type="radio"], input[type="checkbox"] {
-	outline-style:none;
-	outline-width:0px;
+	
+	-webkit-box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
+	   -moz-box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
+	        box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
 }
 
 input[type="radio"] {
