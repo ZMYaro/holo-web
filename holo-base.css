@@ -13,9 +13,15 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
 	-webkit-border-radius:1px;
 	   -moz-border-radius:1px;
 	        border-radius:1px;
+	outline-style:none;
+	outline-width:0px;
 	
 	font-family:Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size:16px;
+}
+button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+	outline-style:none;
+	outline-width:0px;
 }
 
 *:disabled {
