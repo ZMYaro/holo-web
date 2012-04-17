@@ -2,7 +2,7 @@ body {
 	background-attachment:fixed;
 	
 	font-family:Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
-	font-size:16px;
+	font-size:11pt;
 }
 
 button, input[type="button"], input[type="submit"], input[type="reset"], input[type="radio"], input[type="checkbox"] {
@@ -11,7 +11,7 @@ button, input[type="button"], input[type="submit"], input[type="reset"], input[t
 }
 button, input[type="button"], input[type="submit"], input[type="reset"] {
 	margin:6px;
-	padding:6px 12px;
+	padding:3px 12px;
 	border-width:1px;
 	border-style:solid;
 	border-color:transparent;
@@ -22,11 +22,11 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
 	outline-width:0px;
 	
 	font-family:Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
-	font-size:16px;
+	font-size:11pt;
 	
-	-webkit-box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
-	   -moz-box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
-	        box-shadow:0px 1px 2px 0px rgba(0,0,0,0.2);
+	/*-webkit-box-shadow:0px 0px 1px 0px rgba(0,0,0,0.2);
+	   -moz-box-shadow:0px 0px 1px 0px rgba(0,0,0,0.2);
+	        box-shadow:0px 0px 1px 0px rgba(0,0,0,0.2);*/
 }
 
 input[type="radio"] {
@@ -35,8 +35,8 @@ input[type="radio"] {
 	        appearance:none;
 	
 	margin:10px;
-	width:22px;
-	height:22px;
+	width:18px;
+	height:18px;
 	-webkit-border-radius:26px;
 	   -moz-border-radius:26px;
 	        border-radius:26px;
