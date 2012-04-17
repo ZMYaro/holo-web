@@ -64,16 +64,16 @@ input[type="radio"]:enabled:active {
 }
 input[type="radio"]:checked {
 	background-color:#0099CC;
-	background:-webkit-radial-gradient(#33B5E5 4px, /*#94C7DA*/ #2FA3CE 5px, #306172 6px, transparent 7px);
-	background:   -moz-radial-gradient(#33B5E5 4px, /*#94C7DA*/ #2FA3CE 5px, #306172 6px, transparent 7px);
-	background:    -ms-radial-gradient(#33B5E5 4px, /*#94C7DA*/ #2FA3CE 5px, #306172 6px, transparent 7px);
-	background:     -o-radial-gradient(#33B5E5 4px, /*#94C7DA*/ #2FA3CE 5px, #306172 6px, transparent 7px);
-	background:        radial-gradient(#33B5E5 4px, /*#94C7DA*/ #2FA3CE 5px, #306172 6px, transparent 7px);
+	background:-webkit-radial-gradient(#33B5E5 3px, /*#94C7DA*/ #2FA3CE 4px, #306172 5px, transparent 6px);
+	background:   -moz-radial-gradient(#33B5E5 3px, /*#94C7DA*/ #2FA3CE 4px, #306172 5px, transparent 6px);
+	background:    -ms-radial-gradient(#33B5E5 3px, /*#94C7DA*/ #2FA3CE 4px, #306172 5px, transparent 6px);
+	background:     -o-radial-gradient(#33B5E5 3px, /*#94C7DA*/ #2FA3CE 4px, #306172 5px, transparent 6px);
+	background:        radial-gradient(#33B5E5 3px, /*#94C7DA*/ #2FA3CE 4px, #306172 5px, transparent 6px);
 }
 input[type="radio"]:checked:enabled:active {
-	background:-webkit-radial-gradient(#FFFFFF 5px, rgba(51,181,229,0.4) 7px);
-	background:   -moz-radial-gradient(#FFFFFF 5px, rgba(51,181,229,0.4) 7px);
-	background:    -ms-radial-gradient(#FFFFFF 5px, rgba(51,181,229,0.4) 7px);
-	background:     -o-radial-gradient(#FFFFFF 5px, rgba(51,181,229,0.4) 7px);
-	background:        radial-gradient(#FFFFFF 5px, rgba(51,181,229,0.4) 7px);
+	background:-webkit-radial-gradient(#FFFFFF 4px, rgba(51,181,229,0.4) 6px);
+	background:   -moz-radial-gradient(#FFFFFF 4px, rgba(51,181,229,0.4) 6px);
+	background:    -ms-radial-gradient(#FFFFFF 4px, rgba(51,181,229,0.4) 6px);
+	background:     -o-radial-gradient(#FFFFFF 4px, rgba(51,181,229,0.4) 6px);
+	background:        radial-gradient(#FFFFFF 4px, rgba(51,181,229,0.4) 6px);
 }

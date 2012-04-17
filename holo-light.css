@@ -64,16 +64,16 @@ input[type="radio"]:enabled:active {
 }
 input[type="radio"]:checked {
 	background-color:#0099CC;
-	background:-webkit-radial-gradient(#0099CC 4px, /*#81BDD1*/ #028AB7 5px, rgba(204,204,204,0.4) 6px, transparent 7px);
-	background:   -moz-radial-gradient(#0099CC 4px, /*#81BDD1*/ #028AB7 5px, rgba(204,204,204,0.4) 6px, transparent 7px);
-	background:    -ms-radial-gradient(#0099CC 4px, /*#81BDD1*/ #028AB7 5px, rgba(204,204,204,0.4) 6px, transparent 7px);
-	background:     -o-radial-gradient(#0099CC 4px, /*#81BDD1*/ #028AB7 5px, rgba(204,204,204,0.4) 6px, transparent 7px);
-	background:        radial-gradient(#0099CC 4px, /*#81BDD1*/ #028AB7 5px, rgba(204,204,204,0.4) 6px, transparent 7px);
+	background:-webkit-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
+	background:   -moz-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
+	background:    -ms-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
+	background:     -o-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
+	background:        radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
 }
 input[type="radio"]:checked:enabled:active {
-	background:-webkit-radial-gradient(#3D3D3D 5px, rgba(51,181,229,0.4) 7px);
-	background:   -moz-radial-gradient(#3D3D3D 5px, rgba(51,181,229,0.4) 7px);
-	background:    -ms-radial-gradient(#3D3D3D 5px, rgba(51,181,229,0.4) 7px);
-	background:     -o-radial-gradient(#3D3D3D 5px, rgba(51,181,229,0.4) 7px);
-	background:        radial-gradient(#3D3D3D 5px, rgba(51,181,229,0.4) 7px);
+	background:-webkit-radial-gradient(#3D3D3D 4px, rgba(51,181,229,0.4) 6px);
+	background:   -moz-radial-gradient(#3D3D3D 4px, rgba(51,181,229,0.4) 6px);
+	background:    -ms-radial-gradient(#3D3D3D 4px, rgba(51,181,229,0.4) 6px);
+	background:     -o-radial-gradient(#3D3D3D 4px, rgba(51,181,229,0.4) 6px);
+	background:        radial-gradient(#3D3D3D 4px, rgba(51,181,229,0.4) 6px);
 }
