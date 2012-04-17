@@ -40,3 +40,40 @@ button:active:enabled, input[type="button"]:active:enabled, input[type="submit"]
 	   -moz-box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
 	        box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
 }
+
+input[type="radio"] {
+	border-color:#828282;
+	border-color:rgba(61,61,61,0.7);
+}
+input[type="radio"]:focus {
+	-webkit-box-shadow:0px 0px 0px 2px #33B5E5;
+	   -moz-box-shadow:0px 0px 0px 2px #33B5E5;
+	        box-shadow:0px 0px 0px 2px #33B5E5;
+}
+input[type="radio"]:enabled:active {
+	background-color:#33B5E5;
+	background-color:rgba(51,181,229,0.5);
+	background:-webkit-radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
+	background:   -moz-radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
+	background:    -ms-radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
+	background:     -o-radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
+	background:        radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
+	-webkit-box-shadow:0px 0px 0px 8px rgba(51,181,229,0.4);
+	   -moz-box-shadow:0px 0px 0px 8px rgba(51,181,229,0.4);
+	        box-shadow:0px 0px 0px 8px rgba(51,181,229,0.4);
+}
+input[type="radio"]:checked {
+	background-color:#0099CC;
+	background:-webkit-radial-gradient(#0099CC 6px, /*#81BDD1*/ #028AB7 7px, rgba(204,204,204,0.4) 8px, transparent 9px);
+	background:   -moz-radial-gradient(#0099CC 6px, /*#81BDD1*/ #028AB7 7px, rgba(204,204,204,0.4) 8px, transparent 9px);
+	background:    -ms-radial-gradient(#0099CC 6px, /*#81BDD1*/ #028AB7 7px, rgba(204,204,204,0.4) 8px, transparent 9px);
+	background:     -o-radial-gradient(#0099CC 6px, /*#81BDD1*/ #028AB7 7px, rgba(204,204,204,0.4) 8px, transparent 9px);
+	background:        radial-gradient(#0099CC 6px, /*#81BDD1*/ #028AB7 7px, rgba(204,204,204,0.4) 8px, transparent 9px);
+}
+input[type="radio"]:checked:enabled:active {
+	background:-webkit-radial-gradient(#0099CC 6px, /*#81BDD1*/ #028AB7 7px, rgba(204,204,204,0.4) 8px, rgba(51,181,229,0.4) 9px);
+	background:   -moz-radial-gradient(#0099CC 6px, /*#81BDD1*/ #028AB7 7px, rgba(204,204,204,0.4) 8px, rgba(51,181,229,0.4) 9px);
+	background:    -ms-radial-gradient(#0099CC 6px, /*#81BDD1*/ #028AB7 7px, rgba(204,204,204,0.4) 8px, rgba(51,181,229,0.4) 9px);
+	background:     -o-radial-gradient(#0099CC 6px, /*#81BDD1*/ #028AB7 7px, rgba(204,204,204,0.4) 8px, rgba(51,181,229,0.4) 9px);
+	background:        radial-gradient(#0099CC 6px, /*#81BDD1*/ #028AB7 7px, rgba(204,204,204,0.4) 8px, rgba(51,181,229,0.4) 9px);
+}

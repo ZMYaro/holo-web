@@ -19,9 +19,26 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
 	font-family:Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size:16px;
 }
-button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+button, input[type="button"], input[type="submit"], input[type="reset"], input[type="radio"], input[type="checkbox"] {
 	outline-style:none;
 	outline-width:0px;
+}
+
+input[type="radio"] {
+	-webkit-appearance:none;
+	     -o-appearance:none;
+	        appearance:none;
+	
+	margin:6px;
+	width:26px;
+	height:26px;
+	-webkit-border-radius:26px;
+	   -moz-border-radius:26px;
+	        border-radius:26px;
+	border-style:solid;
+	border-width:1px;
+	
+	background-color:transparent;
 }
 
 *:disabled {
