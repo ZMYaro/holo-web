@@ -27,7 +27,7 @@ button:focus {
 	   -moz-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
 	        box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
 }
-button:active {
+button:active:enabled {
 	background-color:#4BBDE8;
 	background-color:rgba(51,181,229,0.9);
 	
