@@ -23,9 +23,9 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
 	color:#FFFFFF;
 }
 button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
-	-webkit-box-shadow:0px 0px 0px 2px rgba(51,181,229,0.4);
-	   -moz-box-shadow:0px 0px 0px 2px rgba(51,181,229,0.4);
-	        box-shadow:0px 0px 0px 2px rgba(51,181,229,0.4);
+	-webkit-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
+	   -moz-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
+	        box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
 }
 button:active:enabled, input[type="button"]:active:enabled, input[type="submit"]:active:enabled, input[type="reset"]:active:enabled {
 	background-color:#32A5CF;
@@ -58,9 +58,9 @@ input[type="radio"]:enabled:active {
 	background:    -ms-radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
 	background:     -o-radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
 	background:        radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
-	-webkit-box-shadow:0px 0px 0px 8px rgba(51,181,229,0.4);
-	   -moz-box-shadow:0px 0px 0px 8px rgba(51,181,229,0.4);
-	        box-shadow:0px 0px 0px 8px rgba(51,181,229,0.4);
+	-webkit-box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
+	   -moz-box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
+	        box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
 }
 input[type="radio"]:checked {
 	background-color:#0099CC;

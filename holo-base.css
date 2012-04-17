@@ -34,9 +34,9 @@ input[type="radio"] {
 	     -o-appearance:none;
 	        appearance:none;
 	
-	margin:6px;
-	width:26px;
-	height:26px;
+	margin:10px;
+	width:22px;
+	height:22px;
 	-webkit-border-radius:26px;
 	   -moz-border-radius:26px;
 	        border-radius:26px;
