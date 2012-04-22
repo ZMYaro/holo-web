@@ -54,6 +54,12 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 	font-size:9pt;
 	text-transform:uppercase;
 	font-weight:bold;
+	
+	-webkit-transition-duration:0.2s;
+	   -moz-transition-duration:0.2s;
+	    -ms-transition-duration:0.2s;
+	     -o-transition-duration:0.2s;
+	        transition-duration:0.2s;
 }
 .actionBar button:focus {
 	
@@ -61,7 +67,7 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 	   -moz-box-shadow:none;
 	        box-shadow:none;
 }
-.actionBar button:active {
+.actionBar button:active, .actionBar button.active {
 	-webkit-box-shadow:none;
 	   -moz-box-shadow:none;
 	        box-shadow:none;
