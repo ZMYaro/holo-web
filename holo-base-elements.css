@@ -29,7 +29,7 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
 	        box-shadow:0px 0px 1px 0px rgba(0,0,0,0.2);*/
 }
 
-input[type="radio"] {
+input[type="radio"], input[type="checkbox"] {
 	-webkit-appearance:none;
 	     -o-appearance:none;
 	        appearance:none;
@@ -37,13 +37,16 @@ input[type="radio"] {
 	margin:10px;
 	width:18px;
 	height:18px;
-	-webkit-border-radius:26px;
-	   -moz-border-radius:26px;
-	        border-radius:26px;
+	
 	border-style:solid;
 	border-width:1px;
 	
 	background-color:transparent;
+}
+input[type="radio"] {
+	-webkit-border-radius:26px;
+	   -moz-border-radius:26px;
+	        border-radius:26px;
 }
 
 *:disabled {

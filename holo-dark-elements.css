@@ -41,11 +41,11 @@ button:active:enabled, input[type="button"]:active:enabled, input[type="submit"]
 	        box-shadow:0px 0px 0px 4px rgba(51,181,229,0.4);
 }
 
-input[type="radio"] {
+input[type="radio"], input[type="checkbox"] {
 	border-color:#3C3C3C;
 	border-color:rgba(204,204,204,0.4);
 }
-input[type="radio"]:focus {
+input[type="radio"]:focus, input[type="checkbox"]:focus {
 	-webkit-box-shadow:0px 0px 0px 2px rgba(51,181,229,0.9);
 	   -moz-box-shadow:0px 0px 0px 2px rgba(51,181,229,0.9);
 	        box-shadow:0px 0px 0px 2px rgba(51,181,229,0.9);
