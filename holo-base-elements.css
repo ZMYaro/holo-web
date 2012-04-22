@@ -48,6 +48,11 @@ input[type="radio"] {
 	   -moz-border-radius:26px;
 	        border-radius:26px;
 }
+input[type="checkbox"] {
+	-webkit-border-radius:1px;
+	   -moz-border-radius:1px;
+	        border-radius:1px;
+}
 
 *:disabled {
 	opacity:0.3;

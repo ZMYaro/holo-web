@@ -50,18 +50,21 @@ input[type="radio"]:focus, input[type="checkbox"]:focus {
 	   -moz-box-shadow:0px 0px 0px 2px rgba(51,181,229,0.9);
 	        box-shadow:0px 0px 0px 2px rgba(51,181,229,0.9);
 }
-input[type="radio"]:enabled:active {
+input[type="radio"]:enabled:active, input[type="checkbox"]:enabled:active {
+	-webkit-box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
+	   -moz-box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
+	        box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
 	background-color:#33B5E5;
 	background-color:rgba(51,181,229,0.5);
+}
+input[type="radio"]:enabled:active {
 	background:-webkit-radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
 	background:   -moz-radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
 	background:    -ms-radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
 	background:     -o-radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
 	background:        radial-gradient(rgba(51,181,229,0.5), rgba(51,181,229,0.4));
-	-webkit-box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
-	   -moz-box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
-	        box-shadow:0px 0px 0px 6px rgba(51,181,229,0.4);
 }
+
 input[type="radio"]:checked {
 	background-color:#0099CC;
 	background:-webkit-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
@@ -70,10 +73,18 @@ input[type="radio"]:checked {
 	background:     -o-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
 	background:        radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
 }
+input[type="checkbox"]:checked {
+	background-color:#0099CC;
+}
+
 input[type="radio"]:checked:enabled:active {
+	background-color:#3D3D3D;
 	background:-webkit-radial-gradient(#3D3D3D 4px, rgba(51,181,229,0.4) 6px);
 	background:   -moz-radial-gradient(#3D3D3D 4px, rgba(51,181,229,0.4) 6px);
 	background:    -ms-radial-gradient(#3D3D3D 4px, rgba(51,181,229,0.4) 6px);
 	background:     -o-radial-gradient(#3D3D3D 4px, rgba(51,181,229,0.4) 6px);
 	background:        radial-gradient(#3D3D3D 4px, rgba(51,181,229,0.4) 6px);
+}
+input[type="checkbox"]:checked:enabled:active {
+	background-color:#3D3D3D;
 }
