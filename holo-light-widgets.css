@@ -1,0 +1,15 @@
+.actionBar {
+	background-color:#DDDDDD;
+	
+	border-bottom-color:#D2D2D2;
+}
+footer.actionBar {
+	border-top-color:#B1B1B1;
+}
+
+.actionBar button:focus {
+	background-color:rgba(51,181,229,0.3);
+	
+	outline-color:#32A5CF;
+	outline-color:rgba(51,181,229,0.9);
+}

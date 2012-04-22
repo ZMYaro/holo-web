@@ -1,0 +1,68 @@
+body {
+	padding-top:44px;
+	padding-bottom:44px;
+}
+
+.actionBar { /* the top action bar should be a <header> element */
+	display:block;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:40px;
+	
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+}
+
+footer.actionBar { /* a bottom action bar must be a <footer> element */
+	top:auto;
+	bottom:0px;
+	
+	border-bottom-style:none;
+	border-bottom-width:0px;
+	border-top-style:solid;
+	border-top-width:1px;
+}
+
+.actionBar span { /* use this for text in action bars */
+	display:inline-block;
+	margin:10px;
+}
+
+.actionBar button {
+	margin:0px;
+	height:100%;
+	
+	background-color:transparent;
+	background-image:none;
+	
+	border-style:none;
+	border-width:0px;
+	outline-style:solid;
+	outline-width:2px;
+	outline-color:transparent;
+	outline-offset:-2px;
+	-webkit-border-radius:0px;
+	   -moz-border-radius:0px;
+	        border-radius:0px;
+	
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+	
+	font-size:9pt;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.actionBar button:focus {
+	
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+}
+.actionBar button:active {
+	-webkit-box-shadow:none;
+	   -moz-box-shadow:none;
+	        box-shadow:none;
+}

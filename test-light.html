@@ -1,10 +1,14 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="holo-base.css" />
-		<link rel="stylesheet" type="text/css" href="holo-light.css" />
+		<title>Holo CSS</title>
+		<link rel="stylesheet" type="text/css" href="holo-base-elements.css" />
+		<link rel="stylesheet" type="text/css" href="holo-light-elements.css" />
+		<link rel="stylesheet" type="text/css" href="holo-base-widgets.css" />
+		<link rel="stylesheet" type="text/css" href="holo-light-widgets.css" />
 		<link rel="stylesheet" type="text/css" href="roboto.css" />
 	</head>
 	<body>
+		<header class="actionBar"><span>Holo CSS</span><button style="float:right;">Button</button></header>
 		<p>This is a demo of the Holo Light theme:</p>
 		<button>Button</button>
 		<button disabled>Disabled</button>
@@ -18,5 +22,6 @@
 		<input type="checkbox" checked />
 		<input type="checkbox" disabled />
 		<input type="checkbox" checked disabled />
+		<footer class="actionBar"><button onclick="window.open('test-dark.html', '_self');" style="width:100%;">Switch to dark theme</button></header>
 	</body>
 </html>
