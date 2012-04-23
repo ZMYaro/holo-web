@@ -36,6 +36,7 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 .actionBar button {
 	margin:0px;
 	height:100%;
+	padding-top:0px;
 	padding-bottom:0px;
 	
 	background-color:transparent;
