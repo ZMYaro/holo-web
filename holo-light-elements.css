@@ -14,6 +14,11 @@ body {
 	color:black;
 }
 
+a {
+	/*color:#4095BF;*/
+	color:#297AA3;
+}
+
 button, input[type="button"], input[type="submit"], input[type="reset"] {
 	background-color:#CBCBCB;
 	
