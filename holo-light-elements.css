@@ -2,14 +2,14 @@
 
 body {
 	background-color:#E8E8E8;
-	background-image:-webkit-gradient(linear, left top, left bottom, from(#E8E8E8), to(#F7F7F7));
-	background-image:-webkit-linear-gradient(#E8E8E8, #F7F7F7);
-	background-image:   -moz-linear-gradient(#E8E8E8, #F7F7F7);
-	background-image:    -ms-linear-gradient(#E8E8E8, #F7F7F7);
-	background-image:     -o-linear-gradient(#E8E8E8, #F7F7F7);
-	background-image:        linear-gradient(#E8E8E8, #F7F7F7);
-	    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8E8E8', endColorstr='#F7F7F7');
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8E8E8', endColorstr='#F7F7F7')";
+	background-image:-webkit-gradient(radial, 50% 100%, 0, 50% 100%, 50%, from(#FBFBFB), to(#E8E8E8));
+	background-image:-webkit-radial-gradient(50% 100%, circle, #FBFBFB, #E8E8E8);
+	background-image:   -moz-radial-gradient(50% 100%, circle, #FBFBFB, #E8E8E8);
+	background-image:    -ms-radial-gradient(50% 100%, circle, #FBFBFB, #E8E8E8);
+	background-image:     -o-radial-gradient(50% 100%, circle, #FBFBFB, #E8E8E8);
+	background-image:        radial-gradient(50% 100%, circle, #FBFBFB, #E8E8E8);
+	    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8E8E8', endColorstr='#FBFBFB');  /* old versions of IE get  */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8E8E8', endColorstr='#FBFBFB')"; /* boring linear gradients */
 	
 	color:black;
 }
