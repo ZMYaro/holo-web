@@ -11,7 +11,7 @@ button, input[type="button"], input[type="submit"], input[type="reset"], input[t
 }
 button, input[type="button"], input[type="submit"], input[type="reset"] {
 	margin:6px;
-	padding:3px 12px;
+	padding:4px 12px;
 	border-width:1px;
 	border-style:solid;
 	border-color:transparent;
