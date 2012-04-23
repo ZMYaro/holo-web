@@ -5,6 +5,9 @@ body {
 
 .actionBar { /* the top action bar should be a <header> element */
 	display:block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
 	position:fixed;
 	top:0px;
 	left:0px;
@@ -27,12 +30,13 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 
 .actionBar span { /* use this for text in action bars */
 	display:inline-block;
-	margin:10px;
+	margin:12px;
 }
 
 .actionBar button {
 	margin:0px;
 	height:100%;
+	padding-bottom:0px;
 	
 	background-color:transparent;
 	background-image:none;
