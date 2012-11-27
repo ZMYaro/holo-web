@@ -20,28 +20,24 @@ a {
 }
 
 button, input[type="button"], input[type="submit"], input[type="reset"] {
-	background-color:#CBCBCB;
+	background-color:#cecece;
 	
-	border-top-color:#DDDDDD;
-	border-bottom-color:#959595;
+	border-color:#c7c7c7 #c0c0c0 #bfbfbf #c1c1c1;
 	
 	color:#333333;
 }
 button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
-	-webkit-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
-	   -moz-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
-	        box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
+    background-color:#85d3ef;
+	background-color:rgba(51,181,229,0.6);
+    border-color:#54c1e9;
 }
 button:enabled:active, input[type="button"]:enabled:active, input[type="submit"]:enabled:active, input[type="reset"]:enabled:active,
 button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]:enabled.active, input[type="reset"]:enabled.active {
-	background-color:#4BBDE8;
-	background-color:rgba(51,181,229,0.9);
+	background-color:#51c0e9;
+	background-color:rgba(51,181,229,0.85);
 	
-	border-top-color:#7CCFEE;
-	border-top-color:rgba(107,201,237,0.9);
-	border-bottom-color:#3B95B5;
-	border-bottom-color:rgba(41,114,183,0.9);
-	
+	border-color:#58bce0 #48b1d8 #41a2c6 #48b1d8;
+
 	-webkit-box-shadow:0px 0px 0px 4px rgba(51,181,229,0.4);
 	   -moz-box-shadow:0px 0px 0px 4px rgba(51,181,229,0.4);
 	        box-shadow:0px 0px 0px 4px rgba(51,181,229,0.4);
