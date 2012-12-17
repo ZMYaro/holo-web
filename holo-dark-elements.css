@@ -20,31 +20,39 @@ a {
 }
 
 button, input[type="button"], input[type="submit"], input[type="reset"] {
-	background-color:#424343;
+	background-color: #474747;
 	
-	border-top-color:#828283;
-	border-bottom-color:#313132;
+	border-left-color: #454545;
+	border-right-color: #454545;
+	border-top-color: #858585;
+	border-bottom-color: #343434;
 	
-	color:#FFFFFF;
+	color: #FFFFFF;
 }
 button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
-	-webkit-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
-	   -moz-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
-	        box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
+	background-color: #1F5366;
+	
+	border-left-color: #037DA6;
+	border-right-color: #037DA6;
+	border-top-color: #3497B8;
+	border-bottom-color: #037094;
+	
+	-webkit-box-shadow: inset 0px 0px 0px 1px #037EA7;
+	   -moz-box-shadow: inset 0px 0px 0px 1px #037EA7;
+	        box-shadow: inset 0px 0px 0px 1px #037EA7;
 }
 button:enabled:active, input[type="button"]:enabled:active, input[type="submit"]:enabled:active, input[type="reset"]:enabled:active,
 button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]:enabled.active, input[type="reset"]:enabled.active {
-	background-color:#32A5CF;
-	background-color:rgba(51,181,229,0.9);
+	background-color: #2C94BB;
 	
-	border-top-color:#68BCD9;
-	border-top-color:rgba(107,201,237,0.9);
-	border-bottom-color:#2882A2;
-	border-bottom-color:rgba(41,114,183,0.9);
+	border-left-color: #2B90B6;
+	border-right-color: #2B90B6;
+	border-top-color: #64B1CD;
+	border-bottom-color: #227392;
 	
-	-webkit-box-shadow:0px 0px 0px 4px rgba(51,181,229,0.4);
-	   -moz-box-shadow:0px 0px 0px 4px rgba(51,181,229,0.4);
-	        box-shadow:0px 0px 0px 4px rgba(51,181,229,0.4);
+	-webkit-box-shadow: 0px 0px 0px 4px rgba(51,181,229,0.4);
+	   -moz-box-shadow: 0px 0px 0px 4px rgba(51,181,229,0.4);
+	        box-shadow: 0px 0px 0px 4px rgba(51,181,229,0.4);
 }
 
 input[type="radio"], input[type="checkbox"] {
