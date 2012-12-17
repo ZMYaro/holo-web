@@ -28,6 +28,10 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
 	outline-style:none;
 	outline-width:0px;
 	
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+	        box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+	
 	font-family:Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size:11pt;
 	
