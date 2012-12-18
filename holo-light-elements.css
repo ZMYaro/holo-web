@@ -80,6 +80,12 @@ select.active, select[size="1"].active {
 	border-bottom-color: #689EB3;
 }
 
+option {
+	background-color: #F5F5F5;
+	color: #0A0A0A;
+	border-top: 1px solid #DCDCDC;
+}
+
 input[type="radio"], input[type="checkbox"] {
 	border-color:#828282;
 	border-color:rgba(61,61,61,0.7);
