@@ -141,3 +141,12 @@ input[type="checkbox"]:checked:enabled.active {
 	/*background:rgba(51,181,229,0.4) url(check-active-dark.png) left bottom;*/
 	background:rgba(51,181,229,0.4) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAARCAYAAAA/mJfHAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAZlJREFUOMvd001LAkEYB/ARkwixg+EHsIKOdY6OfQgxjC5ZURF0CqK3rxCBgdcOWVEdIqOy0C22F22NoLItTah0HF3c1dx1d2e3Q1lLCKVeov99fvPwn2cA+AuZCGWWPbGcr5eA3TVBM2FmM56XXiSsSATkgw4CdlYFzYaZ7XheSirqewRZEeZvspsVQ9NhZvcxJ8ESJCmqHEjylIOAXRVBUxRzEM1JqS9IkQnIXw2QqaWKoMkLxv/ASUgLBSB/PXSCVsseGD9P71GZ4tPCLRu0E7AVAAB6CNgxSTHH95yY/oSwIvuThcjgCdr4btQBAMDoKfIOtzW2W00Gi9VU19Sg162bz9KspV5fb7caW5pNBrMOACArKj5CQtQTy9OqDrjKTjV3yRxmi/j143KVFbGwFs/TNCcy2okOEvz9AIm8P/ayGGHPWRHz6lcvWANhX6Lw4CTR1q9KtgWg0X3HXWhBDRR1kmi7olezE7DFTXNUCRSxIu+/FKL9JFqpasNtfmh0RdgQEuTcznOB7jtOjdT8kcfO0j7wb/IGCSVN6j2UdLQAAAAASUVORK5CYII=) left bottom;
 }
+
+progress {
+	background-color: #292929;
+	background-color: rgba(255,255,255,0.1);
+}
+progress::-webkit-progress-bar-value, progress::-webkit-progress-value,
+progress::-moz-progress-bar {
+	background-color: #0690BE;
+}

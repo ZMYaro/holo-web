@@ -98,6 +98,25 @@ input[type="checkbox"] {
 	        border-radius:1px;
 }
 
+progress {
+	height: 2px;
+	margin: 6px;
+}
+progress::-webkit-progress-bar-value, progress::-webkit-progress-value,
+progress::-moz-progress-bar {
+	position:relative;
+}
+progress::-webkit-progress-bar-value:after, progress::-webkit-progress-value:after,
+progress::-moz-progress-bar:after {
+	content: "";
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 10px;
+	height: 2px;
+	box-shadow: 0px 0px 3px 0px rgba(51,181,229,0.5);
+}
+
 *:disabled {
 	opacity:0.3;
 }

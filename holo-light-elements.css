@@ -141,3 +141,13 @@ input[type="checkbox"]:checked:enabled.active {
 	/*background:rgba(51,181,229,0.4) url(check-active-light.png) left bottom;*/
 	background:rgba(51,181,229,0.4) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAYAAADQWvz5AAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAW9JREFUOMvV0ztLglEYB/D/8bylEQR9hGgpupE31Kx0cWmJhpKooaKhljYbIhHMbGnoqqW4hH4Eacuw4gWhXUpKqEgio6QgzJ4GRRO7KA7Rfzzn8IPncoC/TPdOaEFtWaWqELnncEY3NEq9BiNppi15TFIR4g2bZPuebX53BWTeIMROoXTsEQCwshHfcbMs6D7niTgAAriAdIsWonuZAQAvF2qqzSR54rKAtPZAdDtYRaXphieIJy4KSJseomupqBoJACi8R0rt+CypVgIlk9CNTBK/jQGUQ9r7IG7ZS1rC5L6TxrqgKylJxEH1DXg1jiEyb2YAoDNPEb85+4T0Q9y0fdlXQZK6T7LUAwACe36E9MAPtW2XhGgE/DqaQ2qQ7jBA3LB+OxwGACqnn6ShANjLU/aUC8B7poB0GiCuW3+ccP5S5QyQNOQvYEAW6TJCXFv8dU2KHhRhFSBfRuUMkH5gkDRzdqr6Uyq8YRP+fT4ATkiPMbwnoLkAAAAASUVORK5CYII=) left bottom;
 }
+
+progress {
+	background-color: #A9A9A9;
+	background-color: rgba(0,0,0,0.3);
+}
+
+progress::-webkit-progress-bar-value, progress::-webkit-progress-value,
+progress::-moz-progress-bar {
+	background-color: #129CCA;
+}
