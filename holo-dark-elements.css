@@ -15,10 +15,6 @@ body:before {
 	background-image:        linear-gradient(#000000, #272D33);
 }
 
-a {
-	color:#33B5E5;
-}
-
 button, input[type="button"], input[type="submit"], input[type="reset"] {
 	background-color: #474747;
 	

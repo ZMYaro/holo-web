@@ -15,11 +15,6 @@ body:before {
 	background-image:        radial-gradient(50% 100%, circle, #FBFBFB, #E8E8E8);
 }
 
-a {
-	/*color:#4095BF;*/
-	color:#297AA3;
-}
-
 button, input[type="button"], input[type="submit"], input[type="reset"] {
 	background-color: #CECECE;
 	
