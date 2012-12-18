@@ -26,10 +26,7 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 	top:auto;
 	bottom:0px;
 	
-	border-bottom-style:none;
-	border-bottom-width:0px;
-	border-top-style:solid;
-	border-top-width:1px;
+	border-width: 1px 0 0;
 }
 
 .actionBar span { /* use this for text in action bars */
