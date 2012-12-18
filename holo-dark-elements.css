@@ -53,7 +53,7 @@ select, select[size="1"] {
 	background:    -moz-linear-gradient(135deg, rgba(129,129,129,1) 8px, rgba(129,129,129,0) 9px);
 	background:     -ms-linear-gradient(135deg, rgba(129,129,129,1) 8px, rgba(129,129,129,0) 9px);
 	background:      -o-linear-gradient(135deg, rgba(129,129,129,1) 8px, rgba(129,129,129,0) 9px);
-	background:         linear-gradient(135deg, rgba(129,129,129,1) 8px, rgba(129,129,129,0) 9px);
+	background:         linear-gradient(315deg, rgba(129,129,129,1) 8px, rgba(129,129,129,0) 9px);
 	
 	border-bottom-color: #818181;
 	
@@ -64,7 +64,7 @@ select:focus, select[size="1"]:focus {
 	background:    -moz-linear-gradient(135deg, rgba(3,126,167,1) 8px, rgba(3,126,167,0) 9px);
 	background:     -ms-linear-gradient(135deg, rgba(3,126,167,1) 8px, rgba(3,126,167,0) 9px);
 	background:      -o-linear-gradient(135deg, rgba(3,126,167,1) 8px, rgba(3,126,167,0) 9px);
-	background:         linear-gradient(135deg, rgba(3,126,167,1) 8px, rgba(3,126,167,0) 9px);
+	background:         linear-gradient(315deg, rgba(3,126,167,1) 8px, rgba(3,126,167,0) 9px);
 	
 	border-bottom-color: #047BA3;
 }
@@ -75,7 +75,7 @@ select.active, select[size="1"].active {
 	background:    -moz-linear-gradient(135deg, rgba(137,168,180,1) 8px, rgba(51,181,229,0.4) 9px);
 	background:     -ms-linear-gradient(135deg, rgba(137,168,180,1) 8px, rgba(51,181,229,0.4) 9px);
 	background:      -o-linear-gradient(135deg, rgba(137,168,180,1) 8px, rgba(51,181,229,0.4) 9px);
-	background:         linear-gradient(135deg, rgba(137,168,180,1) 8px, rgba(51,181,229,0.4) 9px);
+	background:         linear-gradient(315deg, rgba(137,168,180,1) 8px, rgba(51,181,229,0.4) 9px);
 	
 	border-bottom-color: #689EB3;
 }
