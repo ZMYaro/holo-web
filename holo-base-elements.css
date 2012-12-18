@@ -34,10 +34,13 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
 	
 	font-family:Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size:11pt;
-	
-	/*-webkit-box-shadow:0px 0px 1px 0px rgba(0,0,0,0.2);
-	   -moz-box-shadow:0px 0px 1px 0px rgba(0,0,0,0.2);
-	        box-shadow:0px 0px 1px 0px rgba(0,0,0,0.2);*/
+}
+/* The “active” class is used to force the appearance of the active/pressed state */
+button:enabled:active, input[type="button"]:enabled:active, input[type="submit"]:enabled:active, input[type="reset"]:enabled:active,
+button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]:enabled.active, input[type="reset"]:enabled.active {
+	-webkit-box-shadow: 0px 0px 0px 4px rgba(51,181,229,0.4);
+	   -moz-box-shadow: 0px 0px 0px 4px rgba(51,181,229,0.4);
+	        box-shadow: 0px 0px 0px 4px rgba(51,181,229,0.4);
 }
 
 input[type="radio"], input[type="checkbox"] {

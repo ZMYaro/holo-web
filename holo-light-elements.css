@@ -21,31 +21,37 @@ a {
 }
 
 button, input[type="button"], input[type="submit"], input[type="reset"] {
-	background-color:#CBCBCB;
+	background-color: #CECECE;
 	
-	border-top-color:#DDDDDD;
-	border-bottom-color:#959595;
+	border-left-color: #C8C8C8;
+	border-right-color: #C8C8C8;
+	border-top-color: #DFDFDF;
+	border-bottom-color: #979797;
 	
 	color:#333333;
 }
 button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
-	-webkit-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
-	   -moz-box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
-	        box-shadow:0px 0px 0px 3px rgba(51,181,229,0.4);
+	background-color: #A6DAED;
+	
+	border-left-color: #30AAD2;
+	border-right-color: #30AAD2;
+	border-top-color: #59BBDC;
+	border-bottom-color: #2B98BC;
+	
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #30ABD4;
+	   -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #30ABD4;
+	        box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #30ABD4;
 }
+
+/* The “active” class is used to force the appearance of the active/pressed state */
 button:enabled:active, input[type="button"]:enabled:active, input[type="submit"]:enabled:active, input[type="reset"]:enabled:active,
 button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]:enabled.active, input[type="reset"]:enabled.active {
-	background-color:#4BBDE8;
-	background-color:rgba(51,181,229,0.9);
+	background-color: #59C1E8;
 	
-	border-top-color:#7CCFEE;
-	border-top-color:rgba(107,201,237,0.9);
-	border-bottom-color:#3B95B5;
-	border-bottom-color:rgba(41,114,183,0.9);
-	
-	-webkit-box-shadow:0px 0px 0px 4px rgba(51,181,229,0.4);
-	   -moz-box-shadow:0px 0px 0px 4px rgba(51,181,229,0.4);
-	        box-shadow:0px 0px 0px 4px rgba(51,181,229,0.4);
+	border-left-color: #57BCE2;
+	border-right-color: #57BCE2;
+	border-top-color: #85D2EE;
+	border-bottom-color: #4597B5;
 }
 
 input[type="radio"], input[type="checkbox"] {

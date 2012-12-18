@@ -37,10 +37,12 @@ button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type
 	border-top-color: #3497B8;
 	border-bottom-color: #037094;
 	
-	-webkit-box-shadow: inset 0px 0px 0px 1px #037EA7;
-	   -moz-box-shadow: inset 0px 0px 0px 1px #037EA7;
-	        box-shadow: inset 0px 0px 0px 1px #037EA7;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #037EA7;
+	   -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #037EA7;
+	        box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #037EA7;
 }
+
+/* The “active” class is used to force the appearance of the active/pressed state */
 button:enabled:active, input[type="button"]:enabled:active, input[type="submit"]:enabled:active, input[type="reset"]:enabled:active,
 button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]:enabled.active, input[type="reset"]:enabled.active {
 	background-color: #2C94BB;
@@ -49,10 +51,6 @@ button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]
 	border-right-color: #2B90B6;
 	border-top-color: #64B1CD;
 	border-bottom-color: #227392;
-	
-	-webkit-box-shadow: 0px 0px 0px 4px rgba(51,181,229,0.4);
-	   -moz-box-shadow: 0px 0px 0px 4px rgba(51,181,229,0.4);
-	        box-shadow: 0px 0px 0px 4px rgba(51,181,229,0.4);
 }
 
 input[type="radio"], input[type="checkbox"] {
