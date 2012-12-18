@@ -63,11 +63,11 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 	text-transform:uppercase;
 	font-weight:bold;
 	
-	-webkit-transition-duration:0.2s;
-	   -moz-transition-duration:0.2s;
-	    -ms-transition-duration:0.2s;
-	     -o-transition-duration:0.2s;
-	        transition-duration:0.2s;
+	-webkit-transition-duration:0.1s;
+	   -moz-transition-duration:0.1s;
+	    -ms-transition-duration:0.1s;
+	     -o-transition-duration:0.1s;
+	        transition-duration:0.1s;
 }
 .actionBar button:focus {
 	background-color: rgba(51,181,229,0.3);
