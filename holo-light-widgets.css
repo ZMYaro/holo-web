@@ -1,8 +1,9 @@
 .actionBar {
 	background-color:#DDDDDD;
 	
+	border-top-color: #E0E0E0;
 	border-bottom-color:#D2D2D2;
 }
 footer.actionBar {
-	border-top-color:#B1B1B1;
+	border-top-color:#C6C6C6;
 }
