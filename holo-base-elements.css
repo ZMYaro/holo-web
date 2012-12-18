@@ -1,3 +1,12 @@
+::selection {
+	background-color: #33B5E5;
+	background-color: rgba(51,181,229,0.5);
+}
+::-moz-selection {
+	background-color: #33B5E5;
+	background-color: rgba(51,181,229,0.5);
+}
+
 body {
 	font-family:Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
 	font-size:11pt;
