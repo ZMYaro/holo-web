@@ -16,6 +16,10 @@ a {
 	color:#33B5E5;
 }
 
+button, input, select {
+	-webkit-tap-highlight-color: transparent !important;
+}
+
 button, input[type="button"], input[type="submit"], input[type="reset"], input[type="radio"], input[type="checkbox"] {
 	outline-style:none;
 	outline-width:0px;
