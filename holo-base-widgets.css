@@ -34,10 +34,13 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 }
 
 .actionBar button {
-	margin:0px;
-	height:100%;
-	padding-top:0px;
-	padding-bottom:0px;
+	-webkit-box-sizing: content-box;
+	   -moz-box-sizing: content-box;
+	        box-sizing: content-box;
+	height: 100%;
+	margin: -1px 0 -2px 0;
+	padding-top: 1px;
+	padding-bottom: 2px;
 	
 	background-color:transparent;
 	background-image:none;
@@ -67,13 +70,19 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 	        transition-duration:0.2s;
 }
 .actionBar button:focus {
+	background-color: rgba(51,181,229,0.3);
 	
-	-webkit-box-shadow:none;
-	   -moz-box-shadow:none;
-	        box-shadow:none;
+	outline-color: #32A5CF;
+	outline-color: rgba(51,181,229,0.9);
+		
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
 }
 .actionBar button:active, .actionBar button.active {
-	-webkit-box-shadow:none;
-	   -moz-box-shadow:none;
-	        box-shadow:none;
+	background-color: rgba(51,181,229,0.75);
+	
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+	        box-shadow: none;
 }
