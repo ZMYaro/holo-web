@@ -101,8 +101,10 @@ input[type="checkbox"] {
 input[type="range"], progress {
 	height: 2px;
 	margin: 8px 6px;
+	border-style: none;
+	border-width: 0;
 	outline-style: none;
-	outline-color: transparent;
+	outline-width: 0;
 }
 input[type="range"]::-webkit-slider-thumb {
 	width: 28px;
