@@ -131,7 +131,7 @@ input[type="range"]:focus::-webkit-slider-thumb {
 	background:         radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.3) 5px);
 }
 input[type="range"]::-webkit-slider-thumb:active,
-input[type="range"].active::-webkit-slider-thumb {
+input[type="range"]:enabled.active::-webkit-slider-thumb {
 	background-color: rgba(51,181,229,0.4);
 	background: -webkit-radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.4) 5px);
 	background:         radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.4) 5px);
