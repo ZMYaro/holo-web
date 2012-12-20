@@ -41,7 +41,7 @@ button, input[type="button"], input[type="submit"], input[type="reset"], input[t
 	outline-style:none;
 	outline-width:0px;
 }
-button, input[type="button"], input[type="submit"], input[type="reset"], select, select[size="1"] {
+button, input[type="button"], input[type="submit"], input[type="reset"], select:not([size]), select[size="1"] {
 	margin:6px;
 	padding:4px 12px;
 	

@@ -48,7 +48,7 @@ button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]
 	border-bottom-color: #4597B5;
 }
 
-select, select[size="1"] {
+select:not([size]), select[size="1"] {
 	background: -webkit-linear-gradient(135deg, rgba(127,127,127,1) 8px, rgba(127,127,127,0) 9px);
 	background:    -moz-linear-gradient(135deg, rgba(127,127,127,1) 8px, rgba(127,127,127,0) 9px);
 	background:     -ms-linear-gradient(135deg, rgba(127,127,127,1) 8px, rgba(127,127,127,0) 9px);
@@ -59,7 +59,7 @@ select, select[size="1"] {
 	
 	color: #0A0A0A;
 }
-select:focus, select[size="1"]:focus {
+select:not([size]):focus, select[size="1"]:focus {
 	background: -webkit-linear-gradient(135deg, rgba(48,171,212,1) 8px, rgba(48,171,212,0) 9px);
 	background:    -moz-linear-gradient(135deg, rgba(48,171,212,1) 8px, rgba(48,171,212,0) 9px);
 	background:     -ms-linear-gradient(135deg, rgba(48,171,212,1) 8px, rgba(48,171,212,0) 9px);
@@ -69,8 +69,8 @@ select:focus, select[size="1"]:focus {
 	border-bottom-color: #61BDDB;
 }
 /* The “active” class is used to force the appearance of the active/pressed state */
-select:active, select[size="1"]:active,
-select.active, select[size="1"].active {
+select:not([size]):active, select[size="1"]:active,
+select:not([size]).active, select[size="1"].active {
 	background: -webkit-linear-gradient(135deg, rgba(81,113,124,1) 8px, rgba(51,181,229,0.4) 9px);
 	background:    -moz-linear-gradient(135deg, rgba(81,113,124,1) 8px, rgba(51,181,229,0.4) 9px);
 	background:     -ms-linear-gradient(135deg, rgba(81,113,124,1) 8px, rgba(51,181,229,0.4) 9px);
