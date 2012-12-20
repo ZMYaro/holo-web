@@ -4,7 +4,7 @@ window.addEventListener("load", function(e) {
 		Array.prototype.slice.call(document.getElementsByTagName("input")));
 	
 	var elemTypes = ["button", "select"];
-	var inputTypes = ["button", "submit", "reset", "radio", "checkbox"];
+	var inputTypes = ["button", "checkbox", "radio", "range", "reset", "submit"];
 	
 	for(var i = 0; i < inputElems.length; i++) {
 		if(elemTypes.indexOf(inputElems[i].tagName.toLowerCase()) != -1 || inputTypes.indexOf(inputElems[i].type.toLowerCase()) != -1) {
