@@ -3,7 +3,7 @@ body {
 	padding-bottom:44px;
 }
 
-.actionBar { /* the top action bar should be a <header> element */
+.actionBar, .holo-actionBar { /* the top action bar should be a <header> element */
 	display:block;
 	-webkit-box-sizing:border-box;
 	   -moz-box-sizing:border-box;
@@ -22,7 +22,7 @@ body {
 	        box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.1);
 }
 
-footer.actionBar { /* a bottom action bar must be a <footer> element */
+footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <footer> element */
 	top:auto;
 	bottom:0px;
 	
@@ -33,12 +33,12 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 	        box-shadow: none;
 }
 
-.actionBar span { /* use this for text in action bars */
+.actionBar span, .holo-actionBar span { /* use this for text in action bars */
 	display:inline-block;
 	margin:12px;
 }
 
-.actionBar button {
+.actionBar button, .holo-actionBar button {
 	-webkit-box-sizing: content-box;
 	   -moz-box-sizing: content-box;
 	        box-sizing: content-box;
@@ -74,7 +74,7 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 	     -o-transition-duration:0.1s;
 	        transition-duration:0.1s;
 }
-.actionBar button:focus {
+.actionBar button:focus, .holo-actionBar button:focus {
 	background-color: rgba(51,181,229,0.3);
 	
 	outline-color: #32A5CF;
@@ -84,7 +84,8 @@ footer.actionBar { /* a bottom action bar must be a <footer> element */
 	   -moz-box-shadow: none;
 	        box-shadow: none;
 }
-.actionBar button:active, .actionBar button.active {
+.actionBar button:active, .holo-actionBar button:active,
+.actionBar button.active, .holo-actionBar button.active {
 	background-color: rgba(51,181,229,0.75);
 	
 	-webkit-box-shadow: none;
