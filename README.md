@@ -13,7 +13,7 @@ Note: Certain form elements (checkboxes, radio buttons) are only themed in WebKi
 You can use widgets like action bars (currently available) and tabs (coming soon) by adding other stylesheets and specifying classes:
 * “holo-base-widgets.css”, which defines the sizes of the elements
 * “holo-light-widgets.css” OR “holo-dark-widgets.css”, which will color the widgets like the corresponding Holo theme
-* To add an action bar, add a ```<header>``` element with the class “actionBar”: ```<header class="actionBar">``` (use a ```<footer>``` element for a bottom action bar)
+* To add an action bar, add a `<header>` element with the class `holo-actionBar`: `<header class="holo-actionBar">` (use a `<footer>` element for a bottom action bar)
 Note: adding the base stylesheet will automatically add padding for action bars
 
 ##Make it work on mobile
@@ -26,6 +26,6 @@ You do not need to keep all the CSS as it is.  You can pull out just the styles 
 
 
 ##The Roboto Font
-You can also include “roboto.css” and the “roboto” folder if you want the Android 4 “Roboto” font used on your Holo-themed page.  This will import the font if the user does not have it installed.
+holo-base-elements.css imports basic Roboto by default.  If you need more weights or character sets, you can load them through [Google Web Fonts](http://google.com/fonts#UsePlace:use/Collection:Roboto).
 
 Enjoy!
