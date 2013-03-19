@@ -1,10 +1,10 @@
-.actionBar {
+.actionBar, .holo-actionBar {
 	background-color:#010101;
 	
 	border-top-color: #0F0F0F;
 	border-bottom-color:#33B5E5;
 }
-footer.actionBar {
+footer.actionBar, footer.holo-actionBar {
 	background-color: #262B31;
 	
 	border-top-color: #505359;
