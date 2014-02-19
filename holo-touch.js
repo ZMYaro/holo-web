@@ -1,4 +1,9 @@
 window.addEventListener("load", function(e) {
+	// Do not run the script on Chrome 32 or higher.
+	if(/Chrome\/[3-9][2-9]/.test(navigator.userAgent)) {
+		return;
+	}
+	
 	var inputElems = Array.prototype.slice.call(document.getElementsByTagName("button")).concat(
 		Array.prototype.slice.call(document.getElementsByTagName("select"))).concat(
 		Array.prototype.slice.call(document.getElementsByTagName("input")));
