@@ -24,13 +24,13 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
 	background-color: rgba(153, 153, 153, 0.26);
 	
 	border-left-color: #262626;
-	border-left-color: rgba(153, 153, 153, 0.26);
+	border-left-color: rgba(153, 153, 153, 0);
 	border-right-color: #262626;
-	border-right-color: rgba(153, 153, 153, 0.26);
+	border-right-color: rgba(153, 153, 153, 0);
 	border-top-color: #4F4F4F;
-	border-top-color: rgba(182, 182, 182, 0.44);
+	border-top-color: rgba(182, 182, 182, 0.29);
 	border-bottom-color: #2A2A2A;
-	border-bottom-color: rgba(89, 89, 89, 0.48);
+	border-bottom-color: rgba(89, 89, 89, 0.09);
 	
 	-webkit-box-shadow: 0 -1px 0 0 rgba(51, 51, 51, 0.12);
 	   -moz-box-shadow: 0 -1px 0 0 rgba(51, 51, 51, 0.12);
@@ -50,11 +50,12 @@ button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]
 	background-color: rgba(97, 145, 244, 0.64);
 	
 	border-left-color: #94B2F2;
-	border-left-color: rgba(97, 145, 244, 0.64);
+	border-left-color: rgba(97, 145, 244, 0);
 	border-right-color: #94B2F2;
-	border-right-color: rgba(97, 145, 244, 0.64);
+	border-right-color: rgba(97, 145, 244, 0);
 	border-top-color: #A2B9E8;
 	border-top-color: rgba(134, 165, 230, 0.73);
+	border-top-color: rgba(182, 182, 182, 0.32);
 	border-bottom-color: #768CB8;
 	border-bottom-color: rgba(78, 107, 166, 0.75);
 	
