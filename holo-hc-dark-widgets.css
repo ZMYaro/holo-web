@@ -1,0 +1,13 @@
+.actionBar, .holo-actionBar {
+	background-color: black;
+}
+.actionBar button:focus, .holo-actionBar button:focus {
+	background-color: transparent;
+	outline-color: #99C045;
+}
+.actionBar button:active, .holo-actionBar button:active,
+.actionBar button.active, .holo-actionBar button.active {
+	background-color: #3F4661;
+	background-color: rgba(166, 185, 255, 0.38);
+	outline-color: transparent;
+}
