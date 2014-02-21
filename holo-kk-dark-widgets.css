@@ -1,0 +1,9 @@
+.actionBar, .holo-actionBar {
+	background-color: #222222;
+	
+	border-top-color: #393939;
+	border-bottom-color: #1B1B1B;
+}
+footer.actionBar, footer.holo-actionBar {
+	border-top-color: #1B1B1B;
+}
