@@ -7,3 +7,8 @@
 footer.actionBar, footer.holo-actionBar {
 	border-top-color: #1B1B1B;
 }
+
+.actionBar button:active, .holo-actionBar button:active,
+.actionBar button.active, .holo-actionBar button.active {
+	background-color: rgba(204, 204, 204, 0.25);
+}
