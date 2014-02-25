@@ -73,6 +73,10 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 	     -o-transition-duration:0.1s;
 	        transition-duration:0.1s;
 }
+	footer.actionBar button, footer.holo-actionBar button {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
 .actionBar button:focus, .holo-actionBar button:focus {
 	background-color: rgba(51,181,229,0.3);
 	
