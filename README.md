@@ -36,3 +36,6 @@ holo-base-elements.css imports basic Roboto by default.  If you need more weight
 * Range sliders are not supported in the the stable and beta versions of Firefox as of 2013-03-18.
 
 The above issues are the result of browser limitations or lack of documented solutions.
+
+##Contributing to Holo Web
+Contributions to this project are welcome.  Please follow standard [commit guidelines](http://git-scm.com/book/ch5-2.html#Commit-Guidelines).
