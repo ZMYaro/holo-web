@@ -45,9 +45,9 @@ button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type
 	border-color: #2EA8D1;
 	border-color: rgba(0, 153, 204, 0.74);
 	
-	-webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px rgba(0, 153, 204, 0.74);
-	   -moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px rgba(0, 153, 204, 0.74);
-	        box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px rgba(0, 153, 204, 0.74);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px rgba(0, 153, 204, 0.74);
+	   -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px rgba(0, 153, 204, 0.74);
+	        box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px rgba(0, 153, 204, 0.74);
 }
 /* The “active” class is used to force the appearance of the active/pressed state */
 button:enabled:active, input[type="button"]:enabled:active, input[type="submit"]:enabled:active, input[type="reset"]:enabled:active,
@@ -126,12 +126,12 @@ option {
 
 input[type="radio"], input[type="checkbox"] {
 	border-color: #828282;
-	border-color: rgba(61,61,61,0.7);
+	border-color: rgba(61, 61, 61, 0.7);
 }
 input[type="radio"]:focus, input[type="checkbox"]:focus {
-	-webkit-box-shadow: 0 0 0 2px rgba(51,181,229,0.9);
-	   -moz-box-shadow: 0 0 0 2px rgba(51,181,229,0.9);
-	        box-shadow: 0 0 0 2px rgba(51,181,229,0.9);
+	-webkit-box-shadow: 0 0 0 2px rgba(51, 181, 229, 0.9);
+	   -moz-box-shadow: 0 0 0 2px rgba(51, 181, 229, 0.9);
+	        box-shadow: 0 0 0 2px rgba(51, 181, 229, 0.9);
 }
 input[type="radio"]:enabled:active, input[type="checkbox"]:enabled:active,
 input[type="radio"]:enabled.active, input[type="checkbox"]:enabled.active {
@@ -144,12 +144,12 @@ input[type="radio"]:enabled.active, input[type="checkbox"]:enabled.active {
 }
 
 input[type="radio"]:checked {
-	background-color:#0099CC;
-	background:-webkit-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
-	background:   -moz-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
-	background:    -ms-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
-	background:     -o-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
-	background:        radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204,204,204,0.4) 5px, transparent 6px);
+	background-color: #0099CC;
+	background: -webkit-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204, 204, 204, 0.4) 5px, transparent 6px);
+	background:    -moz-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204, 204, 204, 0.4) 5px, transparent 6px);
+	background:     -ms-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204, 204, 204, 0.4) 5px, transparent 6px);
+	background:      -o-radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204, 204, 204, 0.4) 5px, transparent 6px);
+	background:         radial-gradient(#0099CC 3px, /*#81BDD1*/ #028AB7 4px, rgba(204, 204, 204, 0.4) 5px, transparent 6px);
 }
 input[type="checkbox"]:checked {
 	/*background-image: url(check-light.png);*/
@@ -173,74 +173,74 @@ input[type="checkbox"]:checked:enabled.active {
 
 input[type="range"], progress {
 	background-color: #A9A9A9;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 input[type="range"]::-moz-range-track {
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 input[type="range"]::-ms-track {
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 input[type="range"]::-webkit-slider-thumb {
-	background-color: rgba(51,181,229,0.6);
-	background: -webkit-radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.6) 5px);
-	background:         radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.6) 5px);
+	background-color: rgba(51, 181, 229, 0.6);
+	background: -webkit-radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.6) 5px);
+	background:         radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.6) 5px);
 }
 input[type="range"]::-moz-range-thumb {
-	background-color: rgba(51,181,229,0.6);
-	background: -moz-radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.6) 5px);
-	background:      radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.6) 5px);
+	background-color: rgba(51, 181, 229, 0.6);
+	background: -moz-radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.6) 5px);
+	background:      radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.6) 5px);
 }
 input[type="range"]::-ms-thumb {
-	background-color: rgba(51,181,229,0.6);
-	background: radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.6) 5px);
+	background-color: rgba(51, 181, 229, 0.6);
+	background: radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.6) 5px);
 }
 input[type="range"]:focus::-webkit-slider-thumb {
-	background-color: rgba(51,181,229,0.3);
-	background: -webkit-radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.3) 5px);
-	background:         radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.3) 5px);
+	background-color: rgba(51, 181, 229, 0.3);
+	background: -webkit-radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.3) 5px);
+	background:         radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.3) 5px);
 }
 input[type="range"]:focus::-moz-range-thumb {
-	background-color: rgba(51,181,229,0.3);
-	background: -moz-radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.3) 5px);
-	background:      radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.3) 5px);
+	background-color: rgba(51, 181, 229, 0.3);
+	background: -moz-radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.3) 5px);
+	background:      radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.3) 5px);
 }
 input[type="range"]:focus::-ms-thumb {
-	background-color: rgba(51,181,229,0.3);
-	background: radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.3) 5px);
+	background-color: rgba(51, 181, 229, 0.3);
+	background: radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.3) 5px);
 }
 input[type="range"]:active::-webkit-slider-thumb,
 input[type="range"]:enabled.active::-webkit-slider-thumb {
-	background-color: rgba(51,181,229,0.4);
-	background: -webkit-radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.4) 5px);
-	background:         radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.4) 5px);
+	background-color: rgba(51, 181, 229, 0.4);
+	background: -webkit-radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.4) 5px);
+	background:         radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.4) 5px);
 	border-color: #33B5E5;
 }
 input[type="range"]:active::-moz-range-thumb,
 input[type="range"]:enabled.active::-moz-range-thumb {
-	background-color: rgba(51,181,229,0.4);
-	background: -moz-radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.4) 5px);
-	background:      radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.4) 5px);
+	background-color: rgba(51, 181, 229, 0.4);
+	background: -moz-radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.4) 5px);
+	background:      radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.4) 5px);
 	border-color: #33B5E5;
 }
 input[type="range"]:active::-ms-thumb, input[type="range"]:enabled.active::-ms-thumb {
-	background-color: rgba(51,181,229,0.4);
-	background: radial-gradient(rgba(51,181,229,1) 3px, rgba(95,194,231,1) 4px, rgba(51,181,229,0.4) 5px);
+	background-color: rgba(51, 181, 229, 0.4);
+	background: radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.4) 5px);
 	border-color: #33B5E5;
 }
 input[type="range"]:disabled::-webkit-slider-thumb {
-	background-color: rgba(0,0,0,0.13);
-	background: -webkit-radial-gradient(rgba(51,181,229,1) 2px, rgba(0,0,0,0.13) 3px);
-	background:         radial-gradient(rgba(51,181,229,1) 2px, rgba(0,0,0,0.13) 3px);
+	background-color: rgba(0, 0, 0, 0.13);
+	background: -webkit-radial-gradient(rgba(51, 181, 229, 1) 2px, rgba(0, 0, 0, 0.13) 3px);
+	background:         radial-gradient(rgba(51, 181, 229, 1) 2px, rgba(0, 0, 0, 0.13) 3px);
 }
 input[type="range"]:disabled::-moz-range-thumb {
-	background-color: rgba(0,0,0,0.13);
-	background: -moz-radial-gradient(rgba(51,181,229,1) 2px, rgba(0,0,0,0.13) 3px);
-	background:      radial-gradient(rgba(51,181,229,1) 2px, rgba(0,0,0,0.13) 3px);
+	background-color: rgba(0, 0, 0, 0.13);
+	background: -moz-radial-gradient(rgba(51, 181, 229, 1) 2px, rgba(0, 0, 0, 0.13) 3px);
+	background:      radial-gradient(rgba(51, 181, 229, 1) 2px, rgba(0, 0, 0, 0.13) 3px);
 }
 input[type="range"]:disabled::-ms-thumb {
-	background-color: rgba(0,0,0,0.13);
-	background: radial-gradient(rgba(51,181,229,1) 2px, rgba(0,0,0,0.13) 3px);
+	background-color: rgba(0, 0, 0, 0.13);
+	background: radial-gradient(rgba(51, 181, 229, 1) 2px, rgba(0, 0, 0, 0.13) 3px);
 }
 
 progress::-webkit-progress-bar-value, progress::-webkit-progress-value {
@@ -253,13 +253,13 @@ input[type="range"]::-ms-fill-lower, progress::-ms-fill {
 	background-color: #129CCA;
 }
 progress::-webkit-progress-bar-value:after, progress::-webkit-progress-value:after {
-	-webkit-box-shadow: 0px 0px 3px 0px rgba(51,181,229,0.5);
-	        box-shadow: 0px 0px 3px 0px rgba(51,181,229,0.5);
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(51, 181, 229, 0.5);
+	        box-shadow: 0px 0px 3px 0px rgba(51, 181, 229, 0.5);
 }
 progress::-moz-progress-bar:after {
-	-moz-box-shadow: 0px 0px 3px 0px rgba(51,181,229,0.5);
-	     box-shadow: 0px 0px 3px 0px rgba(51,181,229,0.5);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(51, 181, 229, 0.5);
+	     box-shadow: 0px 0px 3px 0px rgba(51, 181, 229, 0.5);
 }
 progress::-ms-fill {
-	box-shadow: 0px 0px 3px 0px rgba(51,181,229,0.5);
+	box-shadow: 0px 0px 3px 0px rgba(51, 181, 229, 0.5);
 }
