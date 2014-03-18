@@ -38,11 +38,14 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 	        box-shadow: none;
 }
 
+.actionBar > *, .holo-actionBar > * {
+	margin: -1px 0 -2px;
+}
+
 .actionBar span, .holo-actionBar span { /* use this for text in action bars */
 	display: inline-block;
 	font-size: 16px;
-	margin: -1px 0 -2px;
-	padding: 14px 0 13px;
+	padding: 13px 0 14px;
 }
 
 .actionBar button, .holo-actionBar button {
@@ -51,8 +54,8 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 	        box-sizing: content-box;
 	height: 100%;
 	margin: -1px 0 -2px 0;
-	padding-top: 1px;
-	padding-bottom: 2px;
+	padding: 1px 10px 2px;
+	vertical-align: top;
 	
 	background-color: transparent;
 	background-image: none;
@@ -71,7 +74,7 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 	   -moz-box-shadow: none;
 	        box-shadow: none;
 	
-	font-size: 9pt;
+	font-size: 75%;
 	text-transform: uppercase;
 	font-weight: bold;
 	
@@ -81,10 +84,10 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 	     -o-transition-duration: 0.1s;
 	        transition-duration: 0.1s;
 }
-	footer.actionBar button, footer.holo-actionBar button {
-		margin-bottom: 0;
-		padding-bottom: 0;
-	}
+footer.actionBar button, footer.holo-actionBar button {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
 .actionBar button:focus, .holo-actionBar button:focus {
 	background-color: rgba(51, 181, 229, 0.3);
 	
@@ -117,3 +120,18 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 	background-position: 0 16px;
 	background-repeat: no-repeat;
 }
+
+.actionBar img, .holo-actionBar img {
+	height: 32px;
+	padding: 8px 0;
+	vertical-align: top;
+}
+	.actionBar button img, .holo-actionBar button img {
+		margin: -16px 0 -16px;
+	}
+	.actionBar span img, .actionBar .holo-title img, .holo-actionBar span img, .holo-actionBar .holo-title img {
+		margin: -13px 0 -14px;
+	}
+	.actionBar .holo-title img, .holo-actionBar .holo-title img {
+		margin-left: -4px;
+	}
