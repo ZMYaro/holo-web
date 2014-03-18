@@ -106,3 +106,14 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 	        box-shadow: none;
 }
 
+.actionBar .holo-title, .holo-actionBar .holo-title {
+	font-size: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	padding-left: 16px;
+}
+
+.actionBar .holo-title.holo-up, .holo-actionBar .holo-title.holo-up {
+	background-position: 0 16px;
+	background-repeat: no-repeat;
+}

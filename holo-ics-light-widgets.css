@@ -17,3 +17,7 @@
 footer.actionBar, footer.holo-actionBar {
 	border-top-color: #C6C6C6;
 }
+
+.actionBar .holo-title.holo-up, .holo-actionBar .holo-title.holo-up {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAAEgAAABIAEbJaz4AAAAJdnBBZwAAABAAAAAQAFzGrcMAAAC+SURBVCjPbdHBSgMxFEbh77YWxmK1UgpF6MKF+gq+/8JXUHChiymiu44VWqwzLsqYzNh/leSee25CQj8nQtir2203Y/cKlYfEp4TGjUu1F7XQwKBTnlqqvVlxKOcA3Bn59ohojwZZ/8JCeLVu9TnQ4NbQxnPSJyBwbebHk13S/79Dp/eQ4d9qbe7MhdL+GBAaO1cKfORDkiFsTE2ce7dNSA7wZWmkUB4zELbGZiY+Va0jB6Ayx6myfU/op/fdv9AmLzUXEoRwAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDExLTA3LTAxVDEzOjEwOjI1LTA3OjAwM9+A0wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxMS0wNy0wMVQxMzoxMDoyNS0wNzowMEKCOG8AAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC);
+}

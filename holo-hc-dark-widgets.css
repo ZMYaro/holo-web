@@ -17,3 +17,12 @@
 	background-color: rgba(166, 185, 255, 0.38);
 	outline-color: transparent;
 }
+
+.actionBar .holo-title, .holo-actionBar .holo-title {
+	padding-left: 24px;
+}
+
+.actionBar .holo-title.holo-up, .holo-actionBar .holo-title.holo-up {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAXCAQAAAC7KEemAAABgklEQVQ4y43Uy2tTURDH8c+5eWASio+dQheutLoRDYIICr4WiuYf8F8UqqWCIC0iuLrYhZuK4MLHRlCEmKQpzT0uktzk3puKs5ozzO/Md+YMJ6hYOnfq6ojqhiLdWfC49Kanzhnr2PNcEKfhxCpLcN+GmtMGXjO/vyJIp7HMZTf1MfHMQBDTVYIUgswpj01Ebbs+SxYdFATpwu05aazto11BVqYtnqPbLhlq6tuct9qtCnKc8+4aCRq2/CriLAlm6VFLT+JIxzsfJLJiei7Ig4+cdaDji1cU6csVgui6awYa+jYdCkX6ctMRVxE1ffO9Sl9GCth2qObABVdkksKoK0hR8NWOlkzmoTMyoSpZfocoeGNf29iaJysedMWUeOGPpqENt8TqcuaB7rRG4qeXGoKRO9arWEs3dCET7Hmv7UhDT3O6HOmxuzS1bT+cMLLuQTmncMixhrZQM3DDxeKASxVmWIlP3uoI6FmTCd1/ImXYsW/it5Z7y12E//g1akaLNfkLMmx3/EyfjTYAAAAASUVORK5CYII=);
+	background-position: 0 12px;
+}
