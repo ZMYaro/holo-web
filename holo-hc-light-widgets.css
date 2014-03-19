@@ -31,3 +31,16 @@
 	border-color: #D3D3D3;
 	border-color: rgba(128, 128, 128, 0.25);
 }
+	.holo-list li button:focus {
+		background-color: transparent;
+		-webkit-box-shadow: inset 0 0 0 2px #99C045;
+		   -moz-box-shadow: inset 0 0 0 2px #99C045;
+		        box-shadow: inset 0 0 0 2px #99C045;
+	}
+	.holo-list li button:enabled:active {
+		background-color: #A6C5F3;
+		background-color: rgba(0, 102, 255, 0.3);
+		-webkit-box-shadow: none;
+		   -moz-box-shadow: none;
+		        box-shadow: none;
+	}

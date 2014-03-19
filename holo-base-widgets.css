@@ -152,3 +152,25 @@ footer.actionBar button, footer.holo-actionBar button {
 		.holo-list li:last-child {
 			border-bottom-width: 1px;
 		}
+		
+		.holo-list li button {
+			display: block;
+			margin: -16px;
+			padding: 16px;
+			
+			font-family: inherit;
+			font-size: inherit;
+			text-align: left;
+			
+			border: 0 none;
+			border-radius: 0;
+			background: transparent none;
+			-webkit-box-shadow: none;
+			   -moz-box-shadow: none;
+			        box-shadow: none;
+		}
+			.holo-list li button:enabled:active {
+				-webkit-box-shadow: none;
+				   -moz-box-shadow: none;
+				        box-shadow: none;
+			}
