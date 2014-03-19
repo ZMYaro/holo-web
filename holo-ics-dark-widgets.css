@@ -19,3 +19,8 @@ footer.actionBar, footer.holo-actionBar {
 .actionBar .holo-title.holo-up, .holo-actionBar .holo-title.holo-up {
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAAEgAAABIAEbJaz4AAAAJdnBBZwAAABAAAAAQAFzGrcMAAADaSURBVCjPddG9SkNBFATgb5drCAhiYRUs7BQsRDCtQfIevppP4k/KgIUgiJYWEQtLxT/uXYu9N9lIMtVh9pyZYTZokbqhJ4q+1QRUFgiSbee2vLroyKq4D5JTu2pTtRgaiMVzY+BY7cG9oMmmUYkzfZ8uSyrmY0Gy70Bw60WUcsSFRRKM9LyZZCKUCiKG9vy68pHvlyzaKZR1LC80mHq2YWxTM9f/F/LGjx2jTKRyoQ356ElyYpA1VvVw7UvfeFUPJNHMncqhI0kMpULoGp+YeTdUdVXP86777j8ScUEXuCRR/QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxMS0wNy0wMVQxMzoxMDoyNS0wNzowMDPfgNMAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTEtMDctMDFUMTM6MTA6MjUtMDc6MDBCgjhvAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAABJRU5ErkJggg==);
 }
+
+.holo-list li {
+	border-color: #262626;
+	border-color: rgba(255, 255, 255, 0.15);
+}

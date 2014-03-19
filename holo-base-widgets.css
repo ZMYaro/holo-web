@@ -135,3 +135,20 @@ footer.actionBar button, footer.holo-actionBar button {
 	.actionBar .holo-title img, .holo-actionBar .holo-title img {
 		margin-left: -4px;
 	}
+
+.holo-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+	.holo-list li {
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+				box-sizing: border-box;
+		padding: 16px;
+		border-width: 1px 0 0;
+		border-style: solid;
+	}
+		.holo-list li:last-child {
+			border-bottom-width: 1px;
+		}
