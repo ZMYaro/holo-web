@@ -24,6 +24,8 @@ body {
 	border-width: 1px 0 2px;
 	border-color: transparent;
 	
+	font-size: 16px;
+	
 	z-index: 1000;
 }
 
@@ -44,7 +46,6 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 
 .actionBar span, .holo-actionBar span { /* use this for text in action bars */
 	display: inline-block;
-	font-size: 16px;
 	padding: 13px 0 14px;
 }
 
