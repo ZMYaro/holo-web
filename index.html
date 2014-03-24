@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+	<!DOCTYPE html>
 <html>
 	<head>
 		<title>Holo Web</title>
@@ -6,6 +6,19 @@
 		<link rel="stylesheet" type="text/css" href="holo-ics-dark-elements.css" />
 		<link rel="stylesheet" type="text/css" href="holo-base-widgets.css" />
 		<link rel="stylesheet" type="text/css" href="holo-ics-dark-widgets.css" />
+		<style type="text/css">
+			h4 {
+				text-transform: uppercase;
+				font-size: 90%;
+				margin: 0;
+				padding: 4px 16px;
+				border-bottom-style: solid;
+				border-bottom-width: 1px;
+				border-bottom-color: #262626;
+				border-bottom-color: rgba(255, 255, 255, 0.15);
+				color: rgba(255, 255, 255, 0.6);
+			}
+		</style>
 		
 		<script type="text/javascript" src="holo-touch.js"></script>
 		
@@ -27,37 +40,27 @@
 		<p>
 			Holo Web is a CSS library that attempts to imitate the Android &ldquo;Holo&rdquo; themes with CSS.  Simply adding the stylesheets will instantly Holo-theme any site.  With a few tweaks, the site can also add more Android-like UI elements, such as Holo-themed action bars.
 		</p>
-		<table style="margin: auto; text-align: center;">
-			<tr>
-				<td colspan="2">
-					Demos
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<button onclick="window.open('demo-hc-light.html', '_self');">HC Light</button>
-				</td>
-				<td>
-					<button onclick="window.open('demo-hc-dark.html', '_self');">HC Dark</button>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<button onclick="window.open('demo-ics-light.html', '_self');">ICS Light</button>
-				</td>
-				<td>
-					<button onclick="window.open('demo-ics-dark.html', '_self');">ICS Dark</button>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<button onclick="window.open('demo-kk-light.html', '_self');">KK Light</button>
-				</td>
-				<td>
-					<button onclick="window.open('demo-kk-dark.html', '_self');">KK Dark</button>
-				</td>
-			</tr>
-		</table>
+		<h4>Demos</h4>
+		<ul class="holo-list">
+			<li>
+				<button style="width: 100%; width: calc(100% + 32px);" onclick="window.open('demo-hc-light.html', '_self');">HC Light</button>
+			</li>
+			<li>
+				<button style="width: 100%; width: calc(100% + 32px);" onclick="window.open('demo-hc-dark.html', '_self');">HC Dark</button>
+			</li>
+			<li>
+				<button style="width: 100%; width: calc(100% + 32px);" onclick="window.open('demo-ics-light.html', '_self');">ICS Light</button>
+			</li>
+			<li>
+				<button style="width: 100%; width: calc(100% + 32px);" onclick="window.open('demo-ics-dark.html', '_self');">ICS Dark</button>
+			</li>
+			<li>
+				<button style="width: 100%; width: calc(100% + 32px);" onclick="window.open('demo-kk-light.html', '_self');">KK Light</button>
+			</li>
+			<li>
+				<button style="width: 100%; width: calc(100% + 32px);" onclick="window.open('demo-kk-dark.html', '_self');">KK Dark</button>
+			</li>
+		</ul>
 		<p>
 			Find out more about Holo Web on <a href="https://github.com/zmyaro/holo-web" target="_blank">GitHub</a>.
 		</p>
