@@ -74,35 +74,50 @@ button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]
 }
 
 select:not([size]), select[size="1"] {
-	background: -webkit-linear-gradient(135deg, rgba(127, 127, 127, 1) 8px, rgba(127, 127, 127, 0) 9px);
-	background:    -moz-linear-gradient(135deg, rgba(127, 127, 127, 1) 8px, rgba(127, 127, 127, 0) 9px);
-	background:     -ms-linear-gradient(135deg, rgba(127, 127, 127, 1) 8px, rgba(127, 127, 127, 0) 9px);
-	background:      -o-linear-gradient(135deg, rgba(127, 127, 127, 1) 8px, rgba(127, 127, 127, 0) 9px);
-	background:         linear-gradient(315deg, rgba(127, 127, 127, 1) 8px, rgba(127, 127, 127, 0) 9px);
+	background: -webkit-linear-gradient(135deg, rgba(51, 51, 51, 0.6) 8px, rgba(51, 51, 51, 0) 9px);
+	background:    -moz-linear-gradient(135deg, rgba(51, 51, 51, 0.6) 8px, rgba(51, 51, 51, 0) 9px);
+	background:     -ms-linear-gradient(135deg, rgba(51, 51, 51, 0.6) 8px, rgba(51, 51, 51, 0) 9px);
+	background:      -o-linear-gradient(135deg, rgba(51, 51, 51, 0.6) 8px, rgba(51, 51, 51, 0) 9px);
+	background:         linear-gradient(315deg, rgba(51, 51, 51, 0.6) 8px, rgba(51, 51, 51, 0) 9px);
 	
-	border-bottom-color: #B8B8B8;
+	border-bottom-color: #A5A5A5;
+	border-bottom-color: rgba(51, 51, 51, 0.37);
 	
 	color: #0A0A0A;
 }
 select:not([size]):focus, select[size="1"]:focus {
-	background: -webkit-linear-gradient(135deg, rgba(48, 171, 212, 1) 8px, rgba(48, 171, 212, 0) 9px);
-	background:    -moz-linear-gradient(135deg, rgba(48, 171, 212, 1) 8px, rgba(48, 171, 212, 0) 9px);
-	background:     -ms-linear-gradient(135deg, rgba(48, 171, 212, 1) 8px, rgba(48, 171, 212, 0) 9px);
-	background:      -o-linear-gradient(135deg, rgba(48, 171, 212, 1) 8px, rgba(48, 171, 212, 0) 9px);
-	background:         linear-gradient(315deg, rgba(48, 171, 212, 1) 8px, rgba(48, 171, 212, 0) 9px);
+	background-color: #B1D8E7;
+	background-color: rgba(51, 181, 229, 0.3);
+	background: -webkit-linear-gradient(135deg, rgba(51, 73, 81, 0.72) 8px, rgba(51, 181, 229, 0.3) 9px);
+	background:    -moz-linear-gradient(135deg, rgba(51, 73, 81, 0.72) 8px, rgba(51, 181, 229, 0.3) 9px);
+	background:     -ms-linear-gradient(135deg, rgba(51, 73, 81, 0.72) 8px, rgba(51, 181, 229, 0.3) 9px);
+	background:      -o-linear-gradient(135deg, rgba(51, 73, 81, 0.72) 8px, rgba(51, 181, 229, 0.3) 9px);
+	background:         linear-gradient(315deg, rgba(51, 73, 81, 0.72) 8px, rgba(51, 181, 229, 0.3) 9px);
 	
-	border-bottom-color: #61BDDB;
+	border-bottom-color: #8BA8B0;
+	border-bottom-color: rgba(51, 51, 51, 0.3);
+	
+	-webkit-box-shadow: 0 0 0 2px rgba(51, 181, 229, 0.6);
+	   -moz-box-shadow: 0 0 0 2px rgba(51, 181, 229, 0.6);
+	        box-shadow: 0 0 0 2px rgba(51, 181, 229, 0.6);
 }
 /* The “active” class is used to force the appearance of the active/pressed state */
 select:not([size]):active, select[size="1"]:active,
 select:not([size]).active, select[size="1"].active {
-	background: -webkit-linear-gradient(135deg, rgba(81, 113, 124, 1) 8px, rgba(51, 181, 229, 0.4) 9px);
-	background:    -moz-linear-gradient(135deg, rgba(81, 113, 124, 1) 8px, rgba(51, 181, 229, 0.4) 9px);
-	background:     -ms-linear-gradient(135deg, rgba(81, 113, 124, 1) 8px, rgba(51, 181, 229, 0.4) 9px);
-	background:      -o-linear-gradient(135deg, rgba(81, 113, 124, 1) 8px, rgba(51, 181, 229, 0.4) 9px);
-	background:         linear-gradient(315deg, rgba(81, 113, 124, 1) 8px, rgba(51, 181, 229, 0.4) 9px);
+	background-color: #7BC9E6;
+	background-color: rgba(51, 181, 229, 0.6);
+	background: -webkit-linear-gradient(135deg, rgba(51, 88, 102, 0.84) 8px, rgba(51, 181, 229, 0.6) 9px);
+	background:    -moz-linear-gradient(135deg, rgba(51, 88, 102, 0.84) 8px, rgba(51, 181, 229, 0.6) 9px);
+	background:     -ms-linear-gradient(135deg, rgba(51, 88, 102, 0.84) 8px, rgba(51, 181, 229, 0.6) 9px);
+	background:      -o-linear-gradient(135deg, rgba(51, 88, 102, 0.84) 8px, rgba(51, 181, 229, 0.6) 9px);
+	background:         linear-gradient(315deg, rgba(51, 88, 102, 0.84) 8px, rgba(51, 181, 229, 0.6) 9px);
 	
-	border-bottom-color: #689EB3;
+	border-bottom-color: #6092A4;
+	border-bottom-color: rgba(15, 15, 15, 0.3);
+	
+	-webkit-box-shadow: 0 0 0 4px rgba(51, 181, 229, 0.6);
+	   -moz-box-shadow: 0 0 0 4px rgba(51, 181, 229, 0.6);
+	        box-shadow: 0 0 0 4px rgba(51, 181, 229, 0.6);
 }
 
 option {
