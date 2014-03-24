@@ -170,7 +170,8 @@ footer.actionBar button, footer.holo-actionBar button {
 			   -moz-box-shadow: none;
 			        box-shadow: none;
 		}
-			.holo-list li button:enabled:active {
+			.holo-list li button:enabled:active,
+			.holo-list li button:enabled.active {
 				-webkit-box-shadow: none;
 				   -moz-box-shadow: none;
 				        box-shadow: none;

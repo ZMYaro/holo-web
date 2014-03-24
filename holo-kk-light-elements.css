@@ -223,7 +223,8 @@ input[type="range"]:enabled.active::-moz-range-thumb {
 	background:      radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.4) 5px);
 	border-color: #33B5E5;
 }
-input[type="range"]:active::-ms-thumb, input[type="range"]:enabled.active::-ms-thumb {
+input[type="range"]:active::-ms-thumb,
+input[type="range"]:enabled.active::-ms-thumb {
 	background-color: rgba(51, 181, 229, 0.4);
 	background: radial-gradient(rgba(51, 181, 229, 1) 3px, rgba(95, 194, 231, 1) 4px, rgba(51, 181, 229, 0.4) 5px);
 	border-color: #33B5E5;

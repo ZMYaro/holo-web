@@ -37,7 +37,8 @@
 		   -moz-box-shadow: inset 0 0 0 2px #99C045;
 		        box-shadow: inset 0 0 0 2px #99C045;
 	}
-	.holo-list li button:enabled:active {
+	.holo-list li button:enabled:active,
+	.holo-list li button:enabled.active {
 		background-color: #3F4661;
 		background-color: rgba(166, 185, 255, 0.38);
 		-webkit-box-shadow: none;

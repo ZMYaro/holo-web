@@ -33,7 +33,8 @@ footer.actionBar, footer.holo-actionBar {
 		   -moz-box-shadow: inset 0 0 0 2px rgba(51, 181, 229, 0.42);
 		        box-shadow: inset 0 0 0 2px rgba(51, 181, 229, 0.42);
 	}
-	.holo-list li button:enabled:active {
+	.holo-list li button:enabled:active,
+	.holo-list li button:enabled.active {
 		background-color: #7BC9E6;
 		background-color: rgba(51, 181, 229, 0.6);
 		-webkit-box-shadow: none;
