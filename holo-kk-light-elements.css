@@ -112,9 +112,9 @@ select:not([size]).active, select[size="1"].active {
 	border-bottom-color: #979797;
 	border-bottom-color: rgba(15, 15, 15, 0.32);
 	
-	-webkit-box-shadow: 0 0 0 2px rgba(79, 79, 79, 0.1);
-	   -moz-box-shadow: 0 0 0 2px rgba(79, 79, 79, 0.1);
-	        box-shadow: 0 0 0 2px rgba(79, 79, 79, 0.1);
+	-webkit-box-shadow: 0 0 0 4px rgba(79, 79, 79, 0.1);
+	   -moz-box-shadow: 0 0 0 4px rgba(79, 79, 79, 0.1);
+	        box-shadow: 0 0 0 4px rgba(79, 79, 79, 0.1);
 }
 
 option {
