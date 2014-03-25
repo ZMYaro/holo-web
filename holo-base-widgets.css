@@ -164,7 +164,9 @@ footer.actionBar button, footer.holo-actionBar button {
 			text-align: left;
 			
 			border: 0 none;
-			border-radius: 0;
+			-wekbit-border-radius: 0;
+			   -moz-border-radius: 0;
+			        border-radius: 0;
 			background: transparent none;
 			-webkit-box-shadow: none;
 			   -moz-box-shadow: none;
