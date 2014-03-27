@@ -18,8 +18,8 @@ footer.actionBar, footer.holo-actionBar {
 	border-top-color: #C6C6C6;
 }
 
-.actionBar button:active, .holo-actionBar button:active,
-.actionBar button.active, .holo-actionBar button.active {
+.actionBar button:enabled:active, .holo-actionBar button:enabled:active,
+.actionBar button:enabled.active, .holo-actionBar button:enabled.active {
 	background-color: rgba(153, 153, 153, 0.2);
 }
 
