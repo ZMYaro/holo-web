@@ -79,12 +79,6 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 	font-size: 75%;
 	text-transform: uppercase;
 	font-weight: bold;
-	
-	-webkit-transition-duration: 0.1s;
-	   -moz-transition-duration: 0.1s;
-	    -ms-transition-duration: 0.1s;
-	     -o-transition-duration: 0.1s;
-	        transition-duration: 0.1s;
 }
 footer.actionBar button, footer.holo-actionBar button,
 footer.actionBar *[role="button"], footer.holo-actionBar *[role="button"] {
