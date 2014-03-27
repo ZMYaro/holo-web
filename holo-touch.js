@@ -9,11 +9,23 @@ window.addEventListener("load", function(e) {
 		Array.prototype.slice.call(document.getElementsByTagName("select"))).concat(
 		Array.prototype.slice.call(document.getElementsByTagName("input")));
 	
+	// If they can be found, identify all elements with role="button".
+	if(document.querySelectorAll) {
+		inputElems = inputElems.concat(
+			Array.prototype.slice.call(document.querySelectorAll("*[role=\"button\"]")));
+	}
+	
 	var elemTypes = ["button", "select"];
 	var inputTypes = ["button", "checkbox", "radio", "range", "reset", "submit"];
 	
 	for(var i = 0; i < inputElems.length; i++) {
-		if(elemTypes.indexOf(inputElems[i].tagName.toLowerCase()) != -1 || inputTypes.indexOf(inputElems[i].type.toLowerCase()) != -1) {
+		// If the element is a supported form element,
+		if(elemTypes.indexOf(inputElems[i].tagName.toLowerCase()) !== -1 ||
+				// Or the element is a supported <input> type, 
+				inputTypes.indexOf(inputElems[i].type.toLowerCase()) !== -1 ||
+				// Or the element has role="button",
+				(inputElems[i].getAttribute("role") && inputElems[i].getAttribute("role").toLowerCase() === "button")) {
+			// Add the touch event listeners.
 			inputElems[i].addEventListener("touchstart", makeActive, false);
 			inputElems[i].addEventListener("touchend", makeInactive, false);
 			inputElems[i].addEventListener("touchcancel", makeInactive, false);

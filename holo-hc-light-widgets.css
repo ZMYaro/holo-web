@@ -7,12 +7,15 @@
 .actionBar, .holo-actionBar {
 	background-color: #EFEFEF;
 }
-.actionBar button:focus, .holo-actionBar button:focus {
+.actionBar button:focus, .holo-actionBar button:focus,
+.actionBar *[role="button"]:focus, .holo-actionBar *[role="button"]:focus {
 	background-color: transparent;
 	outline-color: #99C045;
 }
 .actionBar button:active, .holo-actionBar button:active,
-.actionBar button.active, .holo-actionBar button.active {
+.actionBar *[role="button"]:active, .holo-actionBar *[role="button"]:active,
+.actionBar button.active, .holo-actionBar button.active,
+.actionBar *[role="button"].active, .holo-actionBar *[role="button"].active {
 	background-color: #A6C5F3;
 	background-color: rgba(0, 102, 255, 0.3);
 	outline-color: transparent;
@@ -31,14 +34,17 @@
 	border-color: #D3D3D3;
 	border-color: rgba(128, 128, 128, 0.25);
 }
-	.holo-list li button:focus {
+	.holo-list li button:focus,
+	.holo-list li *[role="button"]:focus {
 		background-color: transparent;
 		-webkit-box-shadow: inset 0 0 0 2px #99C045;
 		   -moz-box-shadow: inset 0 0 0 2px #99C045;
 		        box-shadow: inset 0 0 0 2px #99C045;
 	}
 	.holo-list li button:enabled:active,
-	.holo-list li button:enabled.active {
+	.holo-list li *[role="button"]:active,
+	.holo-list li button:enabled.active,
+	.holo-list li *[role="button"].active {
 		background-color: #A6C5F3;
 		background-color: rgba(0, 102, 255, 0.3);
 		-webkit-box-shadow: none;

@@ -49,7 +49,8 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 	padding: 13px 0 14px;
 }
 
-.actionBar button, .holo-actionBar button {
+.actionBar button, .holo-actionBar button,
+.actionBar *[role="button"], .holo-actionBar *[role="button"] {
 	-webkit-box-sizing: content-box;
 	   -moz-box-sizing: content-box;
 	        box-sizing: content-box;
@@ -85,11 +86,13 @@ footer.actionBar, footer.holo-actionBar { /* a bottom action bar must be a <foot
 	     -o-transition-duration: 0.1s;
 	        transition-duration: 0.1s;
 }
-footer.actionBar button, footer.holo-actionBar button {
+footer.actionBar button, footer.holo-actionBar button,
+footer.actionBar *[role="button"], footer.holo-actionBar *[role="button"] {
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
-.actionBar button:focus, .holo-actionBar button:focus {
+.actionBar button:focus, .holo-actionBar button:focus,
+.actionBar *[role="button"]:focus, .holo-actionBar *[role="button"]:focus {
 	background-color: rgba(51, 181, 229, 0.3);
 	
 	outline-color: #32A5CF;
@@ -100,7 +103,9 @@ footer.actionBar button, footer.holo-actionBar button {
 	        box-shadow: none;
 }
 .actionBar button:active, .holo-actionBar button:active,
-.actionBar button.active, .holo-actionBar button.active {
+.actionBar *[role="button"]:active, .holo-actionBar *[role="button"]:active,
+.actionBar button.active, .holo-actionBar button.active,
+.actionBar *[role="button"].active, .holo-actionBar *[role="button"].active {
 	background-color: rgba(51, 181, 229, 0.75);
 	
 	outline: none;
@@ -127,7 +132,8 @@ footer.actionBar button, footer.holo-actionBar button {
 	padding: 8px 0;
 	vertical-align: top;
 }
-	.actionBar button img, .holo-actionBar button img {
+	.actionBar button img, .holo-actionBar button img,
+	.actionBar *[role="button"] img, .holo-actionBar *[role="button"] img {
 		margin: -16px 0 -16px;
 	}
 	.actionBar span img, .actionBar .holo-title img, .holo-actionBar span img, .holo-actionBar .holo-title img {
@@ -154,7 +160,8 @@ footer.actionBar button, footer.holo-actionBar button {
 			border-bottom-width: 1px;
 		}
 		
-		.holo-list li button {
+		.holo-list li button,
+		.holo-list li *[role="button"] {
 			display: block;
 			margin: -16px;
 			padding: 16px;
@@ -173,7 +180,9 @@ footer.actionBar button, footer.holo-actionBar button {
 			        box-shadow: none;
 		}
 			.holo-list li button:enabled:active,
-			.holo-list li button:enabled.active {
+			.holo-list li *[role="button"]:active,
+			.holo-list li button:enabled.active,
+			.holo-list li *[role="button"].active {
 				-webkit-box-shadow: none;
 				   -moz-box-shadow: none;
 				        box-shadow: none;

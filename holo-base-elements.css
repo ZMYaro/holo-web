@@ -32,8 +32,10 @@ a {
 	color: #33B5E5;
 }
 
-button, input, select {
+button, *[role="button"], input, select {
 	-webkit-tap-highlight-color: transparent !important;
+	text-decoration: none;
+	cursor: default;
 }
 
 
@@ -44,11 +46,14 @@ input[type="range"], input[type="range"]::-webkit-slider-thumb  {
 	        appearance: none;
 }
 
-button, input[type="button"], input[type="submit"], input[type="reset"], input[type="radio"], input[type="checkbox"] {
+button, *[role="button"],
+input[type="button"], input[type="submit"], input[type="reset"], input[type="radio"], input[type="checkbox"] {
 	outline-style: none;
 	outline-width: 0px;
 }
-button, input[type="button"], input[type="submit"], input[type="reset"], select:not([size]), select[size="1"] {
+button, *[role="button"],
+input[type="button"], input[type="submit"], input[type="reset"],
+select:not([size]), select[size="1"] {
 	margin: 6px;
 	padding: 4px 12px;
 	
@@ -61,18 +66,20 @@ button, input[type="button"], input[type="submit"], input[type="reset"], select:
 	outline-style: none;
 	outline-width: 0px;
 	
-	font-family: Roboto, "Droid Sans", Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font: inherit;
 }
-button, input[type="button"], input[type="submit"], input[type="reset"] {
+button, *[role="button"],
+input[type="button"], input[type="submit"], input[type="reset"] {
 	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 	   -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 	        box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 /* The “active” class is used to force the appearance of the active/pressed state */
-button:enabled:active, input[type="button"]:enabled:active, input[type="submit"]:enabled:active, input[type="reset"]:enabled:active,
-button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]:enabled.active, input[type="reset"]:enabled.active,
+button:enabled:active, *[role="button"]:active,
+input[type="button"]:enabled:active, input[type="submit"]:enabled:active, input[type="reset"]:enabled:active,
 select:active, select[size="1"]:active,
+button:enabled.active, *[role="button"].active,
+input[type="button"]:enabled.active, input[type="submit"]:enabled.active, input[type="reset"]:enabled.active,
 select.active, select[size="1"].active {
 	-webkit-box-shadow: 0px 0px 0px 4px rgba(51, 181, 229, 0.4);
 	   -moz-box-shadow: 0px 0px 0px 4px rgba(51, 181, 229, 0.4);

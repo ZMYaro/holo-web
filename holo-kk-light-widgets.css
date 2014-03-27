@@ -19,7 +19,9 @@ footer.actionBar, footer.holo-actionBar {
 }
 
 .actionBar button:enabled:active, .holo-actionBar button:enabled:active,
-.actionBar button:enabled.active, .holo-actionBar button:enabled.active {
+.actionBar *[role="button"]:active, .holo-actionBar *[role="button"]:active,
+.actionBar button:enabled.active, .holo-actionBar button:enabled.active,
+.actionBar *[role="button"].active, .holo-actionBar *[role="button"].active {
 	background-color: rgba(153, 153, 153, 0.2);
 }
 
@@ -31,7 +33,8 @@ footer.actionBar, footer.holo-actionBar {
 	border-color: #D0D0D0;
 	border-color: rgba(0, 0, 0, 0.1);
 }
-	.holo-list li button:focus {
+	.holo-list li button:focus,
+	.holo-list li *[role="button"]:focus {
 		background-color: #B1D8E7;
 		background-color: rgba(51, 181, 229, 0.31);
 		-webkit-box-shadow: inset 0 0 0 2px rgba(51, 181, 229, 0.42);
@@ -39,7 +42,9 @@ footer.actionBar, footer.holo-actionBar {
 		        box-shadow: inset 0 0 0 2px rgba(51, 181, 229, 0.42);
 	}
 	.holo-list li button:enabled:active,
-	.holo-list li button:enabled.active {
+	.holo-list li *[role="button"]:active,
+	.holo-list li button:enabled.active,
+	.holo-list li *[role="button"].active {
 		background-color: #D8D8D8;
 		background-color: rgba(153, 153, 153, 0.2);
 		-webkit-box-shadow: none;

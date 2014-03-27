@@ -19,7 +19,8 @@ body:before {
 	background-image:         linear-gradient(#E8E8E8, #FFFFFF);
 }
 
-button, input[type="button"], input[type="submit"], input[type="reset"] {
+button, *[role="button"],
+input[type="button"], input[type="submit"], input[type="reset"] {
 	background-color: #C8C8C8;
 	background-color: rgba(153, 153, 153, 0.4);
 	
@@ -38,7 +39,8 @@ button, input[type="button"], input[type="submit"], input[type="reset"] {
 	
 	color: #333333;
 }
-button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
+button:focus, *[role="button"]:focus,
+input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus {
 	background-color: #9FD3E6;
 	background-color: rgba(51, 181, 229, 0.4);
 	
@@ -50,8 +52,10 @@ button:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type
 	        box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px rgba(0, 153, 204, 0.74);
 }
 /* The “active” class is used to force the appearance of the active/pressed state */
-button:enabled:active, input[type="button"]:enabled:active, input[type="submit"]:enabled:active, input[type="reset"]:enabled:active,
-button:enabled.active, input[type="button"]:enabled.active, input[type="submit"]:enabled.active, input[type="reset"]:enabled.active {
+button:enabled:active, *[role="button"]:active,
+input[type="button"]:enabled:active, input[type="submit"]:enabled:active, input[type="reset"]:enabled:active,
+button:enabled.active, *[role="button"].active,
+input[type="button"]:enabled.active, input[type="submit"]:enabled.active, input[type="reset"]:enabled.active {
 	background-color: #B4B4B4;
 	background-color: rgba(102, 102, 102, 0.4);
 	
