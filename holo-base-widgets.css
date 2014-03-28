@@ -96,9 +96,9 @@ footer.actionBar *[role="button"], footer.holo-actionBar *[role="button"] {
 	   -moz-box-shadow: none;
 	        box-shadow: none;
 }
-.actionBar button:active, .holo-actionBar button:active,
+.actionBar button:enabled:active, .holo-actionBar button:enabled:active,
 .actionBar *[role="button"]:active, .holo-actionBar *[role="button"]:active,
-.actionBar button.active, .holo-actionBar button.active,
+.actionBar button:enabled.active, .holo-actionBar button:enabled.active,
 .actionBar *[role="button"].active, .holo-actionBar *[role="button"].active {
 	background-color: rgba(51, 181, 229, 0.75);
 	
