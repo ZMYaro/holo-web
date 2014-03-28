@@ -5,8 +5,8 @@
  */
 
 body {
-	padding-top: 44px;
-	padding-bottom: 44px;
+	padding-top: 46px;
+	padding-bottom: 46px;
 }
 
 .actionBar, .holo-actionBar { /* the top action bar should be a <header> element */

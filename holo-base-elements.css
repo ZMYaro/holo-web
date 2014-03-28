@@ -17,6 +17,8 @@
 
 body {
 	font-family: Roboto, "Droid Sans", sans-serif;
+	margin: 0;
+	padding: 16px;
 }
 body:before { /* This is used for the background gradient */
 	z-index: -1000;
