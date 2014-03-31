@@ -113,7 +113,8 @@ footer.actionBar *[role="button"], footer.holo-actionBar *[role="button"] {
 	font-size: inherit;
 	font-weight: inherit;
 	text-transform: inherit;
-	padding-left: 16px;
+	height: auto;
+	padding: 13px 10px 14px 16px;
 }
 
 .actionBar .holo-title.holo-up, .holo-actionBar .holo-title.holo-up {
