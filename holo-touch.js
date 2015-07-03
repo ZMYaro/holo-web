@@ -1,3 +1,11 @@
+/* Script for triggering element active states when touched
+ * Supplement to the Holo Web CSS library
+ *
+ * Copyright 2012-2015 Zachary Yaro
+ * Released under the MIT license
+ * http://holo.zmyaro.com/LICENSE.txt
+ */
+
 window.addEventListener("load", function(e) {
 	// Do not run the script on Chrome 32 or higher.
 	/*if(/Chrome\/[3-9][2-9]/.test(navigator.userAgent)) {
