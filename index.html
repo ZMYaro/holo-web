@@ -4,10 +4,12 @@
 		<title>Holo Web</title>
 		<link rel="stylesheet" type="text/css" href="holo-base-elements.css" />
 		<link rel="stylesheet" type="text/css" href="holo-ics-dark-elements.css" />
+		<link rel="stylesheet" type="text/css" href="holo-ics-light-elements.css" media="(prefers-color-scheme: light)" />
 		<link rel="stylesheet" type="text/css" href="holo-base-widgets.css" />
 		<link rel="stylesheet" type="text/css" href="holo-ics-dark-widgets.css" />
+		<link rel="stylesheet" type="text/css" href="holo-ics-light-widgets.css" media="(prefers-color-scheme: light)" />
 		<style type="text/css">
-			h4 {
+			h2 {
 				text-transform: uppercase;
 				font-size: 90%;
 				margin: 0;
@@ -17,6 +19,11 @@
 				border-bottom-color: #262626;
 				border-bottom-color: rgba(255, 255, 255, 0.15);
 				color: rgba(255, 255, 255, 0.75);
+			}
+			@media (prefers-color-scheme: light) {
+				h2 {
+					color: rgba(0, 0, 0, 0.75);
+				}
 			}
 		</style>
 		
@@ -32,7 +39,7 @@
 	</head>
 	<body>
 		<header class="holo-actionBar">
-			<span class="holo-title">
+			<span class="holo-title" role="heading" aria-level="1">
 				<img src="icon_48.png" />
 				Holo Web
 			</span>
@@ -40,7 +47,7 @@
 		<p>
 			Holo Web is a CSS library that attempts to imitate the Android &ldquo;Holo&rdquo; themes with CSS.  Simply adding the stylesheets will instantly Holo-theme any site.  With a few tweaks, the site can also add more Android-like UI elements, such as Holo-themed action bars.
 		</p>
-		<h4>Demos</h4>
+		<h2>Demos</h2>
 		<ul class="holo-list">
 			<li>
 				<a role="button" href="demo-hc-light.html">Honeycomb Light</a>
