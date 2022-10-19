@@ -1,9 +1,9 @@
-#Holo Web
+# Holo Web
 
 Holo Web is a few stylesheets that attempt to imitate the Android “Holo” themes.
 
 
-##Holo-ify your site
+## Holo-ify your site
 If you want to Holo-ify HTML elements on your page, you just need to include two files:
 * “holo-base-elements.css”, which defines the sizes of the elements
 * One of the following, which will color the page like the corresponding Holo theme:
@@ -14,7 +14,7 @@ If you want to Holo-ify HTML elements on your page, you just need to include two
     - “holo-kk-dark-elements.css” (KitKat Holo Dark)
     - “holo-kk-light-elements.css” (KitKat Holo Light)
 
-##Add Holo widgets
+## Add Holo widgets
 You can use widgets like action bars (currently available) and tabs (coming soon) by adding other stylesheets and specifying classes:
 * “holo-base-widgets.css”, which defines the sizes of the elements
 * One of the following, which will color the widgets like the corresponding Holo theme:
@@ -28,19 +28,19 @@ You can use widgets like action bars (currently available) and tabs (coming soon
 
 Note: adding the base stylesheet will automatically add padding for action bars.
 
-##Make it work on older mobile browsers
+## Make it work on older mobile browsers
 One great use of Holo Web is to make mobile web sites look like native Android apps.  Holo Web includes a script to make sure all widgets respond to touch properly in mobile WebKit (Mobile Safari, Android Browser, Chrome for Android).
 * Make sure you include the “holo-touch.js” file in your project.
 * Add a script tag to your page: `<script type="text/javascript" src="holo-touch.js"></script>`.
 
-##The Roboto Font
+## The Roboto Font
 holo-base-elements.css imports basic Roboto by default.  If you need more weights or character sets, you can load them through [Google Web Fonts](http://google.com/fonts#UsePlace:use/Collection:Roboto).
 
-##Known issues
+## Known issues
 * Certain form elements (checkboxes, radio buttons) are only properly themed in WebKit-based browsers (e.g. Safari, Chrome) and partially themed in Presto (older Opera) and the latest version of Trident (IE10+).
 * Certain form elements, such as range sliders, are unsupported in some older browsers.
 
 The above issues are the result of browser limitations or lack of documented solutions.
 
-##Contributing to Holo Web
+## Contributing to Holo Web
 Contributions to this project are welcome.  Please follow standard [commit guidelines](http://git-scm.com/book/ch5-2.html#Commit-Guidelines).
